@@ -233,7 +233,7 @@ def main(args, config):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--checkpoint', type=str, required=True)
+    parser.add_argument('--checkpoint', default='output/refcoco_bbox/refcoco_bbox/checkpoint_best.pth', type=str)
     parser.add_argument('--config', type=str, default='configs/Grounding_bbox.yaml')
     parser.add_argument('--output_dir', type=str, default='output/refcoco_bbox')
     parser.add_argument('--output_hdfs', type=str, default='', help="to collect eval results among nodes")
@@ -250,13 +250,16 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    config = yaml.load(open(args.config, 'r'), Loader=yaml.Loader)
+    ymal = yaml.YAML(typ='rt')
+    with open(args.config, 'r') as f:
+        config = ymal.load(f)
 
     args.result_dir = os.path.join(args.output_dir, 'result')
     Path(args.output_dir).mkdir(parents=True, exist_ok=True)
     Path(args.result_dir).mkdir(parents=True, exist_ok=True)
         
-    yaml.dump(config, open(os.path.join(args.output_dir, 'config.yaml'), 'w'))    
+    with open(os.path.join(args.output_dir, 'config.yaml'), 'w') as file:
+        ymal.dump(config, file)
 
     if len(args.output_hdfs):
         hmkdir(args.output_hdfs)

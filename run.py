@@ -103,7 +103,7 @@ def run_pretrain_nlvr(args):
         os.system(f"{dist_launch} --use_env NLVR_pretrain.py --config {args.config} "
                   f"--output_dir {args.output_dir} --checkpoint {args.checkpoint}")
 
-        args.checkpoint = get_from_hdfs(f"{args.output_dir}/model_state_epoch_latest.th")
+        args.checkpoint = get_from_hdfs(f"{args.output_dir}/checkpoint_best.pth")
 
     # run fine-tune
     if len(args.output_dir): args.output_dir += '_nlvr2'

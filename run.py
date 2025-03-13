@@ -346,6 +346,7 @@ if __name__ == '__main__':
                                                                     "to collect eval results among nodes")
 
     parser.add_argument('--evaluate', action='store_true', help="evaluation on downstream tasks")
+    parser.add_argument('--gpu', default=0, type=int)
 
     args = parser.parse_args()
 

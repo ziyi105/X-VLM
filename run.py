@@ -127,7 +127,7 @@ def run_pretrain_refcoco_bbox(args):
                   f"--use_env Grounding_bbox_pretrain.py --config {args.config} "
                   f"--output_dir {args.output_dir} --checkpoint {args.checkpoint}")
 
-        args.checkpoint = get_from_hdfs(f"{args.output_dir}/model_state_epoch_latest.th")
+        args.checkpoint = get_from_hdfs(f"{args.output_dir}/checkpoint_best.th")
 
     # run fine-tune
     if len(args.output_dir): args.output_dir += '_refcoco'
@@ -233,7 +233,7 @@ def run(args):
         run_pretrain(args)
 
     elif args.task == 'itr_coco':
-        assert os.path.exists("images/coco")
+        assert os.path.exists("images")
         args.config = 'configs/Retrieval_coco.yaml'
         run_retrieval(args)
 
@@ -271,7 +271,7 @@ def run(args):
             run_refcoco(args, block_num=num, epochs=1)
 
     elif args.task == 'refcoco_bbox':
-        assert os.path.exists("images/coco")
+        assert os.path.exists("images")
         run_pretrain_refcoco_bbox(args)
 
     elif args.task.startswith('coco_capt_domain'):
@@ -328,19 +328,19 @@ def run(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--task', type=str, required=True)
-    parser.add_argument('--dist', type=str, required=True, help="see func get_dist_launch for details")
+    parser.add_argument('--task', default='refcoco_bbox', type=str, required=False)
+    parser.add_argument('--dist', default="1", type=str, required=False, help="see func get_dist_launch for details")
 
     parser.add_argument('--config', default='', type=str, help="if not given, use default")
     parser.add_argument('--bs', default=-1, type=int, help="for each gpu, batch_size = bs // num_gpus; "
                                                            "this option only works for fine-tuning scripts.")
     parser.add_argument('--seed', default=42, type=int)
 
-    parser.add_argument('--checkpoint', default='', type=str, help="for fine-tuning")
+    parser.add_argument('--checkpoint', default='output/refcoco_bbox/checkpoint_best.pth', type=str, help="for fine-tuning")
     parser.add_argument('--load_ckpt_from', default='', type=str, help="load domain pre-trained params")
 
     # write path: local or HDFS
-    parser.add_argument('--output_dir', type=str, required=True, help='for fine-tuning, local path; '
+    parser.add_argument('--output_dir', default='output/refcoco',type=str, required=False, help='for fine-tuning, local path; '
                                                                       'for pre-training, local and HDFS are both allowed.')
     parser.add_argument('--output_hdfs', type=str, default='', help="HDFS path required by VQA and Refcoco, "
                                                                     "to collect eval results among nodes")
@@ -356,7 +356,7 @@ if __name__ == '__main__':
         print("### warning: you have not set the path to hadoop_bin (ignore this if you don't use HDFS)")
 
     assert hexists(os.path.dirname(args.output_dir))
-    hmkdir(args.output_dir)
+    # hmkdir(args.output_dir)
 
     if len(args.output_hdfs):
         assert hexists(os.path.dirname(args.output_hdfs))

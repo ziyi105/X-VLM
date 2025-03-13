@@ -221,11 +221,15 @@ if __name__ == '__main__':
     parser.add_argument('--distributed', action='store_false')
     args = parser.parse_args()
 
-    config = yaml.load(open(args.config, 'r'), Loader=yaml.Loader)
+    ymal = yaml.YAML(typ='rt')
+    with open(args.config, 'r') as f:
+        config = ymal.load(f)
 
     hmkdir(args.output_dir)
 
-    yaml.dump(config, open('config.yaml', 'w'))
+    with open('config.yaml', 'w') as f:
+        ymal.dump(config, f)
+        
     hcopy('config.yaml', args.output_dir)
 
     main(args, config)

@@ -83,7 +83,7 @@ def val(model, data_loader, tokenizer, device):
 
 
 def main(args, config):
-    utils.init_distributed_mode(False)
+    utils.init_distributed_mode(args)
     device = torch.device(args.device)
 
     world_size = utils.get_world_size()

@@ -114,10 +114,11 @@ def main(args, config):
         model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[0])
         model_without_ddp = model.module   
 
+    hf_token = os.getenv("HF_TOKEN", None)
     if config['use_roberta']:
-        tokenizer = RobertaTokenizer.from_pretrained(config['text_encoder'])
+        tokenizer = RobertaTokenizer.from_pretrained(config['text_encoder'], token=hf_token)
     else:
-        tokenizer = BertTokenizer.from_pretrained(config['text_encoder'])
+        tokenizer = BertTokenizer.from_pretrained(config['text_encoder'], token=hf_token)  
 
     print("### output_dir, ", args.output_dir, flush=True)
     print("### output_hdfs, ", args.output_hdfs, flush=True)

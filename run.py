@@ -337,7 +337,7 @@ if __name__ == '__main__':
     parser.add_argument('--seed', default=42, type=int)
 
     parser.add_argument('--checkpoint', default='output/refcoco_bbox/checkpoint_best.pth', type=str, help="for fine-tuning")
-    parser.add_argument('--load_ckpt_from', default='', type=str, help="load domain pre-trained params")
+    parser.add_argument('--load_ckpt_from', default='output/refcoco_bbox/domain_pretrain_model_state_epoch_latest.th', type=str, help="load domain pre-trained params")
 
     # write path: local or HDFS
     parser.add_argument('--output_dir', default='output/refcoco',type=str, required=False, help='for fine-tuning, local path; '

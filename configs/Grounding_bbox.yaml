@@ -4,6 +4,7 @@ test_file: ['data/finetune/refcoco+_val.json','data/finetune/refcoco+_test.json'
 refcoco_data: 'data/finetune/'
 det_file: 'data/finetune/refcoco+/dets.json'
 coco_file: 'data/finetune/refcoco+/cocos.json'
+careful_hflip: False
 
 image_root: 'drive/MyDrive/fyp-dataset/images/'
 

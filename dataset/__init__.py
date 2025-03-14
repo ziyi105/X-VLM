@@ -131,9 +131,10 @@ def create_dataset(dataset, config, evaluate=False):
         return region_dataset
 
     elif dataset == 'grounding_bbox':
-        test_dataset = grounding_dataset_bbox(config['test_file'], test_transform, config['image_root'], mode='test', config=config)
-        if evaluate:
-            return None, test_dataset
+        # test_dataset = grounding_dataset_bbox(config['test_file'], test_transform, config['image_root'], mode='test', config=config)
+        # if evaluate:
+        #     return None, test_dataset
+        test_dataset = None
 
         train_transform = transforms.Compose([
             RandomAugment(2, 7, isPIL=True, augs=['Identity', 'AutoContrast', 'Equalize', 'Brightness', 'Sharpness']),

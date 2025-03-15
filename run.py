@@ -329,15 +329,15 @@ def run(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--task', default='refcoco_bbox', type=str, required=False)
-    parser.add_argument('--dist', default="1", type=str, required=False, help="see func get_dist_launch for details")
+    parser.add_argument('--dist', default="gpu0", type=str, required=False, help="see func get_dist_launch for details")
 
     parser.add_argument('--config', default='', type=str, help="if not given, use default")
     parser.add_argument('--bs', default=-1, type=int, help="for each gpu, batch_size = bs // num_gpus; "
                                                            "this option only works for fine-tuning scripts.")
     parser.add_argument('--seed', default=42, type=int)
 
-    parser.add_argument('--checkpoint', default='content/drive/MyDrive/fyp-dataset/checkpoints/checkpoint_best.pth', type=str, help="for fine-tuning")
-    parser.add_argument('--load_ckpt_from', default='content/drive/MyDrive/fyp-dataset/checkpoints/domain_pretrain_model_state_epoch_latest.th', type=str, help="load domain pre-trained params")
+    parser.add_argument('--checkpoint', default='/content/drive/MyDrive/fyp-dataset/checkpoints/checkpoint_best.pth', type=str, help="for fine-tuning")
+    parser.add_argument('--load_ckpt_from', default='/content/drive/MyDrive/fyp-dataset/checkpoints/domain_pretrain_model_state_epoch_latest.th', type=str, help="load domain pre-trained params")
 
     # write path: local or HDFS
     parser.add_argument('--output_dir', default='output/refcoco_bbox',type=str, required=False, help='for fine-tuning, local path; '

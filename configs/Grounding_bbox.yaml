@@ -1,12 +1,12 @@
-train_file: ['content/drive/MyDrive/fyp-dataset/dataset/train_dataset.json']
+train_file: ['/content/drive/MyDrive/fyp-dataset/dataset/train_dataset.json']
 test_file: ['data/finetune/refcoco+_val.json','data/finetune/refcoco+_test.json']
 
-refcoco_data: 'content/drive/MyDrive/fyp-dataset/'
+refcoco_data: '/content/drive/MyDrive/fyp-dataset/'
 det_file: 'data/finetune/refcoco+/dets.json'
-coco_file: 'content/drive/MyDrive/fyp-dataset/dataset/cocos.json'
+coco_file: '/content/drive/MyDrive/fyp-dataset/dataset/cocos.json'
 careful_hflip: False
 
-image_root: 'content/drive/MyDrive/fyp-dataset/images/'
+image_root: '/content/drive/MyDrive/fyp-dataset/images/'
 
 ## Vision Encoder
 vision_config: 'configs/config_swinB_384.json'

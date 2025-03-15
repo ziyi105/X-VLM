@@ -271,7 +271,7 @@ def run(args):
             run_refcoco(args, block_num=num, epochs=1)
 
     elif args.task == 'refcoco_bbox':
-        assert os.path.exists("content/drive/MyDrive/fyp-dataset/images/")
+        assert os.path.exists("/content/drive/MyDrive/fyp-dataset/images")
         run_pretrain_refcoco_bbox(args)
 
     elif args.task.startswith('coco_capt_domain'):
@@ -356,8 +356,8 @@ if __name__ == '__main__':
     if '/SET/PATH/TO/hadoop/bin/hdfs' in HADOOP_BIN:
         print("### warning: you have not set the path to hadoop_bin (ignore this if you don't use HDFS)")
 
+    hmkdir(args.output_dir)
     assert hexists(os.path.dirname(args.output_dir))
-    # hmkdir(args.output_dir)
 
     if len(args.output_hdfs):
         assert hexists(os.path.dirname(args.output_hdfs))

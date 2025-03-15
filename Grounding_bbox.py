@@ -107,6 +107,9 @@ def main(args, config):
     model = XVLM(config=config)
     model.load_pretrained(args.checkpoint, config, load_bbox_pretrain=args.load_bbox_pretrain, is_eval=args.evaluate)
     model = model.to(device)
+    print(f"Model is on: {next(model.parameters()).device}")
+    for name, param in model.named_parameters():
+        print(f"{name}: {param.device}") 
     print("### Total Params: ", sum(p.numel() for p in model.parameters() if p.requires_grad))
 
     model_without_ddp = model

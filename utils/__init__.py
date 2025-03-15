@@ -339,6 +339,8 @@ def init_distributed_mode(args):
         print("Running in Google Colab - Disabling distributed training")
         args.distributed = False
         args.gpu = 0  # Force single GPU usage
+        device = torch.device(f"cuda:{args.gpu}" if torch.cuda.is_available() else "cpu")
+        print(f"Using device: {device}")
         return
     if 'RANK' in os.environ and 'WORLD_SIZE' in os.environ:
         args.rank = int(os.environ["RANK"])

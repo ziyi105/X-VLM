@@ -6,7 +6,7 @@
 # --------------------------------------------------------
 
 import numpy as np
-from scipy import interpolate
+from scipy.interpolate import RegularGridInterpolator
 
 import torch
 import torch.nn as nn
@@ -645,9 +645,11 @@ def interpolate_relative_pos_embed(rel_pos_bias, dst_num_pos, param_name=''):
 
         for i in range(num_attn_heads):
             z = rel_pos_bias[:, i].view(src_size, src_size).float().numpy()
-            f = interpolate.interp2d(x, y, z, kind='cubic')
+            f = RegularGridInterpolator((x, y), z, method='cubic')
+            query_points = np.array([dx.flatten(), dy.flatten()]).T
+            interpolated_values = f(query_points)
             all_rel_pos_bias.append(
-                torch.Tensor(f(dx, dy)).contiguous().view(-1, 1).to(rel_pos_bias.device))
+                torch.Tensor(interpolated_values).contiguous().view(-1, 1).to(rel_pos_bias.device))
 
         rel_pos_bias = torch.cat(all_rel_pos_bias, dim=-1)
 

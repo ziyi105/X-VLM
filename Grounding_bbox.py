@@ -234,7 +234,7 @@ def main(args, config):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--checkpoint', default='output/refcoco_bbox/checkpoint_best.pth', type=str)
+    parser.add_argument('--checkpoint', default='content/drive/MyDrive/fyp-dataset/checkpoints/checkpoint_best.pth', type=str)
     parser.add_argument('--config', type=str, default='configs/Grounding_bbox.yaml')
     parser.add_argument('--output_dir', type=str, default='output/refcoco_bbox')
     parser.add_argument('--output_hdfs', type=str, default='', help="to collect eval results among nodes")

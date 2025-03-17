@@ -23,7 +23,7 @@ patch_size: 32
 ## Text Encoder
 use_roberta: False
 text_config: 'configs/config_bert.json'  # ['configs/config_bert.json', 'configs/config_roberta.json']
-text_encoder: 'data/bert-base-uncased'  # ['data/bert-base-uncased', 'data/roberta-base']
+text_encoder: 'bert-base-uncased'  # ['data/bert-base-uncased', 'data/roberta-base']
 
 
 ## Training

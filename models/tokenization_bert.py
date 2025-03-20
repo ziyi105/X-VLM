@@ -213,7 +213,7 @@ class BertTokenizer(PreTrainedTokenizer):
         return len(self.vocab)
 
     def get_vocab(self):
-        return dict(self.get_vocab, **self.added_tokens_encoder)
+        return dict(self.get_vocab(), **self.added_tokens_encoder)
 
     def _tokenize(self, text):
         split_tokens = []

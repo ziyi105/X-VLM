@@ -66,6 +66,7 @@ class grounding_dataset_bbox(Dataset):
         self.image_root = image_root
         self.max_words = max_words
         self.mode = mode
+        self.refer = REFER(data_root="/content/drive/MyDrive/fyp-dataset/dataset", dataset="refcoco", splitBy="unc")
 
         if self.mode == 'train':
             

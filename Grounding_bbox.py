@@ -6,6 +6,7 @@ import os
 import random
 import time
 from pathlib import Path
+import wandb
 
 import numpy as np
 import ruamel.yaml as yaml
@@ -23,7 +24,7 @@ from optim import create_optimizer
 from refTools.refer_python3 import REFER
 from scheduler import create_scheduler
 from utils.hdfs_io import hmkdir, hcopy, hexists
-
+os.environ["WANDB_API_KEY"] = "api_key"
 
 def train(model, data_loader, optimizer, tokenizer, epoch, device, scheduler, config):
     model.train()
@@ -53,6 +54,13 @@ def train(model, data_loader, optimizer, tokenizer, epoch, device, scheduler, co
         metric_logger.update(loss_giou=loss_giou.item())
         metric_logger.update(lr=optimizer.param_groups[0]["lr"])
 
+        wandb.log({
+            "loss_bbox": loss_bbox.item(),
+            "loss_giou": loss_giou.item(),
+            "lr": optimizer.param_groups[0]["lr"],
+            "epoch": epoch,
+            "step": i + epoch * len(data_loader)
+        })
     # gather the stats from all processes
     metric_logger.synchronize_between_processes()
     print("Averaged stats:", metric_logger.global_avg())     
@@ -78,11 +86,18 @@ def val(model, data_loader, tokenizer, device):
 
         for r_id, coord in zip(ref_ids, outputs_coord):
             result.append({'ref_id': r_id.item(), 'pred': coord})
-
+    wandb.log({
+        "val_results": len(result),  # Example: Log the number of validation results
+    })
     return result
 
 
 def main(args, config):
+    wandb.init(
+        project="X-VLM bbox prediction",  # Replace with your project name
+        name=args.output_dir,        # Optional: Use the output directory as the run name
+        config=config                # Log your configuration
+    )
     utils.init_distributed_mode(args)
     device = torch.device(args.device)
 
@@ -233,6 +248,12 @@ def main(args, config):
     total_time = time.time() - start_time
     total_time_str = str(datetime.timedelta(seconds=int(total_time)))
     print('### Time {}'.format(total_time_str))
+    if utils.is_main_process():
+        wandb.log({
+            "best_epoch": best_epoch,
+            "best_val_d": best
+        })
+    wandb.finish()
 
 
 if __name__ == '__main__':

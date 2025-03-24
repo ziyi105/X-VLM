@@ -18,13 +18,13 @@ import utils
 from dataset import create_dataset, create_sampler, create_loader
 from dataset.utils import collect_tensor_result, grounding_eval_bbox, grounding_eval_bbox_vlue
 from models.model_bbox import XVLM
-from models.tokenization_bert import BertTokenizer
+from transformers import BertTokenizer
 from models.tokenization_roberta import RobertaTokenizer
 from optim import create_optimizer
 from refTools.refer_python3 import REFER
 from scheduler import create_scheduler
 from utils.hdfs_io import hmkdir, hcopy, hexists
-os.environ["WANDB_API_KEY"] = "api_key"
+os.environ["WANDB_API_KEY"] = "api_key" 
 
 def train(model, data_loader, optimizer, tokenizer, epoch, device, scheduler, config):
     model.train()

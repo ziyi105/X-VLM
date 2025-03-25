@@ -336,8 +336,8 @@ if __name__ == '__main__':
                                                            "this option only works for fine-tuning scripts.")
     parser.add_argument('--seed', default=42, type=int)
 
-    parser.add_argument('--checkpoint', default='/content/drive/MyDrive/fyp-dataset/checkpoints/checkpoint_best.pth', type=str, help="for fine-tuning")
-    parser.add_argument('--load_ckpt_from', default='/content/drive/MyDrive/fyp-dataset/checkpoints/domain_pretrain_model_state_epoch_latest.th', type=str, help="load domain pre-trained params")
+    parser.add_argument('--checkpoint', default='/scratch/e0735461/x-vlm/checkpoints/checkpoint_best.pth', type=str, help="for fine-tuning")
+    parser.add_argument('--load_ckpt_from', default='/scratch/e0735461/x-vlm/checkpoints/checkpoints/domain_pretrain_model_state_epoch_latest.th', type=str, help="load domain pre-trained params")
 
     # write path: local or HDFS
     parser.add_argument('--output_dir', default='output/refcoco_bbox',type=str, required=False, help='for fine-tuning, local path; '

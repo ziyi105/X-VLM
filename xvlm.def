@@ -1,0 +1,28 @@
+BootStrap: docker  
+From: pytorch/pytorch:1.7.1-cuda11.0-cudnn8-devel  
+
+%post  
+    apt-get update && apt-get install -y \
+        python3-pip \
+        git \
+        libgl1-mesa-glx \
+        libglib2.0-0
+
+    # Upgrade pip
+    pip3 install --upgrade pip  
+
+    # Install required Python packages
+    pip3 install \
+        timm==0.4.9 \
+        transformers==4.12.5 \
+        ruamel_yaml \
+        opencv-python \
+        scikit-image \
+        matplotlib \
+        torch==1.7.1 \
+        torchvision==0.8.2 \
+        pycocotools \
+        git+https://github.com/tylin/coco-caption.git  # For pycocoevalcap
+
+%runscript  
+    echo "Singularity container for X-VLM is ready."

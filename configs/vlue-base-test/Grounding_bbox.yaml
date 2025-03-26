@@ -1,6 +1,6 @@
-test_file: ['data/vlue_released/refcoco+_vlue_test.json']
-image_root: 'images/marvl/'
-vlue_test: True
+test_file: ['/content/drive/MyDrive/fyp-dataset/dataset/refcoco/test/test_dataset.json']
+image_root: '/content/drive/MyDrive/fyp-dataset/test_images/'
+vlue_test: False
 
 
 ## Vision Encoder
@@ -24,7 +24,7 @@ text_encoder: 'data/bert-base-uncased'  # ['data/bert-base-uncased', 'data/rober
 ## Training
 batch_size: 20
 max_tokens: 40
-careful_hflip: True  # first check whether 'left' or 'right' in captions
+careful_hflip: False  # first check whether 'left' or 'right' in captions
 
 
 

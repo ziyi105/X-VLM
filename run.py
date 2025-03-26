@@ -311,9 +311,9 @@ def run(args):
         run_nlvr2(args)
 
     elif args.task == 'eval_vlue_refcoco':
-        assert os.path.exists("images/marvl")
         args.evaluate = True
         args.config = f"configs/vlue-base-test/Grounding_bbox.yaml"
+        assert os.path.exists(args.config['image_root'])
         run_refcoco(args, use_bbox=True)
 
     elif args.task == 'eval_vlue_refcoco_weakly':

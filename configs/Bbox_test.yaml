@@ -14,3 +14,7 @@ patch_size: 32
 ## Text Encoder
 use_roberta: False
 text_config: 'configs/config_bert.json'
+
+batch_size: 20
+max_tokens: 40
+careful_hflip: False  # first check whether 'left' or 'right' in captions

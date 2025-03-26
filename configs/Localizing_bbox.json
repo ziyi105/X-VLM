@@ -1,0 +1,8 @@
+{
+    "image_res": 384,
+    "max_tokens": 40,
+    "batch_size": 16,
+    "lr": 0.0001,
+    "epochs": 10,
+    "text_encoder": "bert-base-uncased"
+}

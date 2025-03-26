@@ -154,7 +154,7 @@ def main(args, config):
 
         test_loader = create_loader([grd_test_dataset], samplers,
                                     batch_size=[config['batch_size']],
-                                    num_workers=[4], is_trains=[False], collate_fns=[None])[0]
+                                    num_workers=[2], is_trains=[False], collate_fns=[None])[0]
 
         result = val(model_without_ddp, test_loader, tokenizer, device)
         results = collect_tensor_result(result, filename='grounding_bbox_eval', local_wdir=args.result_dir,
@@ -166,7 +166,7 @@ def main(args, config):
                 grounding_acc = grounding_eval_bbox_vlue(results, config['test_file'][0])
             else:
                 # refcoco evaluation tools
-                refer = REFER(config['refcoco_data'], 'refcoco+', 'unc')
+                refer = REFER(config['refcoco_data'], 'refcoco', 'unc')
                 grounding_acc = grounding_eval_bbox(results, refer)
 
             log_stats = {**{f'{k}': v for k, v in grounding_acc.items()}}

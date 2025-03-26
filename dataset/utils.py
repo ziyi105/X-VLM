@@ -145,7 +145,8 @@ def collect_tensor_result(result, filename, local_wdir, hdfs_wdir, write_to_hdfs
     if write_to_hdfs:
         hcopy(wpath, hdfs_wdir)
 
-    dist.barrier()
+    if dist.is_available() and dist.is_initialized():
+        dist.barrier()
 
     result = []
     if utils.is_main_process():

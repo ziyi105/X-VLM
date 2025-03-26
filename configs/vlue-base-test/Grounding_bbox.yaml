@@ -1,5 +1,6 @@
-test_file: ['/content/drive/MyDrive/fyp-dataset/dataset/refcoco/test/test_dataset.json']
+test_file: ['/content/drive/MyDrive/fyp-dataset/dataset/refcoco/test/refcoco/test_dataset.json']
 image_root: '/content/drive/MyDrive/fyp-dataset/test_images/'
+refcoco_data: '/content/drive/MyDrive/fyp-dataset/dataset/refcoco/test/'
 vlue_test: False
 
 
@@ -18,7 +19,7 @@ patch_size: 32
 ## Text Encoder
 use_roberta: False
 text_config: 'configs/config_bert.json'  # ['configs/config_bert.json', 'configs/config_roberta.json']
-text_encoder: 'data/bert-base-uncased'  # ['data/bert-base-uncased', 'data/roberta-base']
+text_encoder: '/content/drive/MyDrive/fyp-dataset/bert-base-uncased'  # ['data/bert-base-uncased', 'data/roberta-base']
 
 
 ## Training

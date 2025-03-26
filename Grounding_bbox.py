@@ -252,7 +252,7 @@ def main(args, config):
     print('### Time {}'.format(total_time_str))
     if utils.is_main_process():
         wandb.log({
-            "best_epoch": best_epoch,
+            # "best_epoch": best_epoch,
             "best_val_d": best
         })
     wandb.finish()

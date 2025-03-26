@@ -157,8 +157,8 @@ def collect_tensor_result(result, filename, local_wdir, hdfs_wdir, write_to_hdfs
                 hcopy(os.path.join(hdfs_wdir, '%s_rank%d.pth' % (filename, rank)), rpath)
 
             result += torch.load(rpath)
-
-    dist.barrier()
+    if dist.is_available() and dist.is_initialized():
+        dist.barrier()
 
     return result
 
@@ -288,7 +288,7 @@ def grounding_eval_bbox(results, refer):
             if IoU_det >= 0.5:
                 correct_val_d += 1
 
-    eval_result = {'val_d': correct_val_d / num_val, 'testA_d': correct_A_d / num_A, 'testB_d': correct_B_d / num_B}
+    eval_result = {'val_d': correct_val_d / num_val, 'testA_d': 0, 'testB_d': 0}
 
     for metric, acc in eval_result.items():
         print(f'{metric}: {acc:.3f}')

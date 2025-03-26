@@ -5,13 +5,13 @@ from transformers import BertTokenizer
 from models.model_bbox import XVLM
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
+import yaml
 
 # Load the model
-config = {
-    'image_res': 384,  # Example resolution, adjust based on your model config
-    'max_tokens': 40,  # Maximum number of tokens for text
-    # Add other necessary config parameters here
-}
+yaml_config_path = "configs/Bbox_test.yaml"  # Path to your YAML file
+with open(yaml_config_path, 'r') as f:
+    config = yaml.safe_load(f)  # Load YAML as a Python dictionary
+
 checkpoint_path = 'content/drive/MyDrive/fyp-dataset/checkpoints/checkpoint_best.pth'
 
 model = XVLM(config=config)

@@ -1,0 +1,16 @@
+image_path: "/content/drive/MyDrive/fyp-dataset/test_images/cropped_scene_210.jpeg"
+
+annotation: "near the chair in front of the opened cabinet"
+
+text_encoder: '/content/drive/MyDrive/fyp-dataset/bert-base-uncased'
+
+vision_config: 'configs/config_swinB_384.json'
+
+use_clip_vit: False
+use_swin: True
+image_res: 384
+patch_size: 32
+
+## Text Encoder
+use_roberta: False
+text_config: 'configs/config_bert.json'

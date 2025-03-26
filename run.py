@@ -13,7 +13,7 @@ from utils.hdfs_io import HADOOP_BIN, hexists, hmkdir, hcopy
 
 ############ Set it correctly for distributed training across nodes
 NNODES = 1  # e.g. 1/2/3/4
-NPROC_PER_NODE = 8  # e.g. 8 gpus
+NPROC_PER_NODE = 1  # e.g. 8 gpus
 
 MASTER_ADDR = 'SET_IT'
 MASTER_PORT = 12345
@@ -313,7 +313,7 @@ def run(args):
     elif args.task == 'eval_vlue_refcoco':
         args.evaluate = True
         args.config = f"configs/vlue-base-test/Grounding_bbox.yaml"
-        assert os.path.exists(args.config['image_root'])
+        # assert os.path.exists(args.config['image_root'])
         run_refcoco(args, use_bbox=True)
 
     elif args.task == 'eval_vlue_refcoco_weakly':

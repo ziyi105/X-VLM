@@ -94,7 +94,7 @@ def val(model, data_loader, tokenizer, device):
 
 def main(args, config):
     wandb.init(
-        project="X-VLM bbox prediction",  # Replace with your project name
+        project="X-VLM bbox prediction baseline model",  # Replace with your project name
         name=args.output_dir,        # Optional: Use the output directory as the run name
         config=config                # Log your configuration
     )

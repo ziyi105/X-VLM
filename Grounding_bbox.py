@@ -172,7 +172,8 @@ def main(args, config):
             log_stats = {**{f'{k}': v for k, v in grounding_acc.items()}}
             print(log_stats)
 
-        dist.barrier()
+        if dist.is_available() and dist.is_initialized():
+            dist.barrier()
 
     else:
         print("Start training")
@@ -237,7 +238,8 @@ def main(args, config):
                 with open(os.path.join(args.output_dir, "log.txt"), "a") as f:
                     f.write(json.dumps(log_stats) + "\n")
 
-            dist.barrier()
+            if dist.is_available() and dist.is_initialized():
+                dist.barrier()
 
         if utils.is_main_process():
             with open(os.path.join(args.output_dir, "log.txt"), "a") as f:

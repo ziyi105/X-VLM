@@ -8,6 +8,7 @@ from PIL import Image
 
 import numpy as np
 import torch
+import utils
 from torch.utils.data import Dataset, DataLoader
 from transformers import BertTokenizer
 from models.model_bbox import XVLM
@@ -118,7 +119,8 @@ def main(args):
             "test_file": args.test_file,
             "image_root": args.image_root,
             "checkpoint": args.checkpoint,
-            "output_dir": args.output_dir
+            "output_dir": args.output_dir,
+            "evaluate": args.evaluate
         }
     )
 
@@ -129,14 +131,7 @@ def main(args):
     # Initialize tokenizer
     tokenizer = BertTokenizer.from_pretrained(config['text_encoder'])
 
-    # Create datasets and dataloaders
-    train_dataset = CustomDataset(
-        json_file=args.train_file,
-        image_root=args.image_root,
-        tokenizer=tokenizer,
-        image_res=config['image_res'],
-        max_tokens=config['max_tokens']
-    )
+    # Create test dataset and dataloader
     test_dataset = CustomDataset(
         json_file=args.test_file,
         image_root=args.image_root,
@@ -144,58 +139,98 @@ def main(args):
         image_res=config['image_res'],
         max_tokens=config['max_tokens']
     )
-
-    train_loader = DataLoader(train_dataset, batch_size=config['batch_size'], shuffle=True)
     test_loader = DataLoader(test_dataset, batch_size=config['batch_size'], shuffle=False)
 
     # Initialize model
     model = XVLM(config=config)
-    model.load_pretrained(args.checkpoint, config, load_bbox_pretrain=True, is_eval=False)
+    model.load_pretrained(args.checkpoint, config, load_bbox_pretrain=True, is_eval=True)
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model = model.to(device)
 
-    # Optimizer and scheduler
-    optimizer = torch.optim.AdamW(model.parameters(), lr=config['lr'])
-    scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=1, gamma=0.9)
-
-    # Training loop
-    for epoch in range(config['epochs']):
-        train_loss = train(model, train_loader, optimizer, tokenizer, epoch, device, scheduler)
-        print(f"Epoch {epoch}, Training Loss: {train_loss}")
-
-        # Log training loss to wandb
-        wandb.log({"epoch": epoch, "train_loss": train_loss})
-
-        # Evaluate
+    if args.evaluate:
+        # Evaluate only
+        print("Evaluating the model on the test dataset...")
         results = evaluate(model, test_loader, tokenizer, device)
-        print(f"Epoch {epoch}, Evaluation Results: {results}")
+        correct_predictions = utils.localizating_bbox_eval(results, iou_threshold=0.5)
+        print(f"Number of Correct Predictions: {correct_predictions}")
 
         # Log evaluation results to wandb
         for result in results:
             wandb.log({
-                "epoch": epoch,
                 "pred_bbox": result['pred_bbox'],
                 "target_bbox": result['target_bbox']
             })
 
-        # Save model checkpoint
-        checkpoint_path = os.path.join(args.output_dir, f"checkpoint_epoch_{epoch}.pth")
-        torch.save(model.state_dict(), checkpoint_path)
+        # Log the number of correct predictions to wandb
+        wandb.log({"correct_predictions": correct_predictions})
 
-        # Log checkpoint path to wandb
-        wandb.log({"checkpoint_path": checkpoint_path})
+    if not args.evaluate:
+        # Create train dataset and dataloader
+        train_dataset = CustomDataset(
+            json_file=args.train_file,
+            image_root=args.image_root,
+            tokenizer=tokenizer,
+            image_res=config['image_res'],
+            max_tokens=config['max_tokens']
+        )
+        train_loader = DataLoader(train_dataset, batch_size=config['batch_size'], shuffle=True)
+
+        # Optimizer and scheduler
+        optimizer = torch.optim.AdamW(model.parameters(), lr=config['lr'])
+        scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=1, gamma=0.9)
+
+        # Training loop
+        for epoch in range(config['epochs']):
+            train_loss = train(model, train_loader, optimizer, tokenizer, epoch, device, scheduler)
+            print(f"Epoch {epoch}, Training Loss: {train_loss}")
+
+            # Log training loss to wandb
+            wandb.log({"epoch": epoch, "train_loss": train_loss})
+
+            # Evaluate
+            results = evaluate(model, test_loader, tokenizer, device)
+            print(f"Epoch {epoch}, Evaluation Results: {results}")
+
+            # Log evaluation results to wandb
+            for result in results:
+                wandb.log({
+                    "epoch": epoch,
+                    "pred_bbox": result['pred_bbox'],
+                    "target_bbox": result['target_bbox']
+                })
+
+            # Save model checkpoint
+            checkpoint_path = os.path.join(args.output_dir, f"checkpoint_epoch_{epoch}.pth")
+            torch.save(model.state_dict(), checkpoint_path)
+
+            # Log checkpoint path to wandb
+            wandb.log({"checkpoint_path": checkpoint_path})
+    else:
+        # Evaluate only
+        print("Evaluating the model on the test dataset...")
+        results = evaluate(model, test_loader, tokenizer, device)
+        print(f"Evaluation Results: {results}")
+
+        # Log evaluation results to wandb
+        for result in results:
+            wandb.log({
+                "pred_bbox": result['pred_bbox'],
+                "target_bbox": result['target_bbox']
+            })
 
     # Finalize wandb run
     wandb.finish()
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--config', type=str, required=False, help="Path to config file")
     parser.add_argument('--train_file', default='/content/drive/MyDrive/fyp-dataset/dataset/refcoco/train_dataset.json', type=str, required=False, help="Path to train JSON file")
     parser.add_argument('--test_file', default='/content/drive/MyDrive/fyp-dataset/dataset/refcoco/test/refcoco/test_dataset.json', type=str, required=False, help="Path to test JSON file")
-    parser.add_argument('--image_root', default='/content/drive/MyDrive/fyp-dataset/test_images/', type=str, required=False, help="Path to image root directory")
+    parser.add_argument('--image_root', default='/content/drive/MyDrive/fyp-dataset/images/', type=str, required=False, help="Path to image root directory")
     parser.add_argument('--checkpoint', default='/content/drive/MyDrive/fyp-dataset/checkpoints/checkpoint_best.pth', type=str, required=False, help="Path to pretrained checkpoint")
     parser.add_argument('--output_dir', default='output/localizing_bbox', type=str, required=False, help="Directory to save outputs")
+    parser.add_argument('--evaluate', action='store_true', help="Evaluate the model without training")
     args = parser.parse_args()
 
     Path(args.output_dir).mkdir(parents=True, exist_ok=True)

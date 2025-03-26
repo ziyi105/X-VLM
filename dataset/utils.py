@@ -332,7 +332,6 @@ def grounding_eval_bbox_vlue(results, test_json):
 
     return eval_result
 
-
 # IoU function
 def computeIoU(box1, box2):
     # each box is of [x1, y1, w, h]
@@ -347,6 +346,19 @@ def computeIoU(box1, box2):
         inter = 0
     union = box1[2] * box1[3] + box2[2] * box2[3] - inter
     return float(inter) / union
+
+def localizating_bbox_eval(results, iou_threshold=0.5):
+    """
+    Count the number of correct predictions based on IoU threshold.
+    """
+    correct_count = 0
+    for result in results:
+        pred_bbox = result['pred_bbox']
+        target_bbox = result['target_bbox']
+        iou = computeIoU(pred_bbox, target_bbox)
+        if iou >= iou_threshold:
+            correct_count += 1
+    return correct_count
 
 
 from pycocotools.coco import COCO

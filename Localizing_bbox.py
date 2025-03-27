@@ -8,7 +8,7 @@ from PIL import Image
 
 import numpy as np
 import torch
-import utils
+import dataset.utils as utils
 from torch.utils.data import Dataset, DataLoader
 from transformers import BertTokenizer
 from models.model_bbox import XVLM

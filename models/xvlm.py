@@ -480,29 +480,38 @@ class XVLMBase(nn.Module):
 
         return output_coord
 
-    def get_bbox_loss(self, output_coord, target_bbox, is_image=None):
-        """
-        Bounding Box Loss: L1 & GIoU
+def get_bbox_loss(self, output_coord, target_bbox, is_image=None):
+    """
+    Bounding Box Loss: L1 & GIoU (ignoring width & height)
+    
+    Args:
+        output_coord: Predicted (x, y, w, h)
+        target_bbox: Ground truth (x, y, w, h)
+        is_image: Mask for valid samples
+    """
+    # Compute L1 loss only for x, y (ignore w, h)
+    loss_bbox = F.l1_loss(output_coord[:, :2], target_bbox[:, :2], reduction='none')  # Only x, y
 
-        Args:
-            image_embeds: encoding full images
-        """
-        loss_bbox = F.l1_loss(output_coord, target_bbox, reduction='none')  # bsz, 4
+    # Convert from (cx, cy, w, h) → (x_min, y_min, x_max, y_max)
+    boxes1 = box_ops.box_cxcywh_to_xyxy(output_coord)
+    boxes2 = box_ops.box_cxcywh_to_xyxy(target_bbox)
 
-        boxes1 = box_ops.box_cxcywh_to_xyxy(output_coord)
-        boxes2 = box_ops.box_cxcywh_to_xyxy(target_bbox)
-        if (boxes1[:, 2:] < boxes1[:, :2]).any() or (boxes2[:, 2:] < boxes2[:, :2]).any():
-            # early check of degenerated boxes
-            print("### (boxes1[:, 2:] < boxes1[:, :2]).any() or (boxes2[:, 2:] < boxes2[:, :2]).any()")
-            loss_giou = torch.zeros(output_coord.size(0), device=output_coord.device)
-        else:
-            loss_giou = 1 - torch.diag(box_ops.generalized_box_iou(boxes1, boxes2))  # bsz
+    # Ignore width/height in GIoU by forcing them to match
+    boxes2[:, 2:] = boxes1[:, 2:]
 
-        if is_image is None:
-            num_boxes = target_bbox.size(0)
-        else:
-            num_boxes = torch.sum(1 - is_image)
-            loss_bbox = loss_bbox * (1 - is_image.view(-1, 1))
-            loss_giou = loss_giou * (1 - is_image)
+    if (boxes1[:, 2:] < boxes1[:, :2]).any() or (boxes2[:, 2:] < boxes2[:, :2]).any():
+        # Degenerated boxes (invalid bbox)
+        print("### (boxes1[:, 2:] < boxes1[:, :2]).any() or (boxes2[:, 2:] < boxes2[:, :2]).any()")
+        loss_giou = torch.zeros(output_coord.size(0), device=output_coord.device)
+    else:
+        loss_giou = 1 - torch.diag(box_ops.generalized_box_iou(boxes1, boxes2))  # IoU ignoring w, h
 
-        return loss_bbox.sum() / num_boxes, loss_giou.sum() / num_boxes
+    if is_image is None:
+        num_boxes = target_bbox.size(0)
+    else:
+        num_boxes = torch.sum(1 - is_image)
+        loss_bbox = loss_bbox * (1 - is_image.view(-1, 1))
+        loss_giou = loss_giou * (1 - is_image)
+
+    return loss_bbox.sum() / num_boxes, loss_giou.sum() / num_boxes
+

@@ -13,7 +13,7 @@ from utils.hdfs_io import HADOOP_BIN, hexists, hmkdir, hcopy
 
 ############ Set it correctly for distributed training across nodes
 NNODES = 1  # e.g. 1/2/3/4
-NPROC_PER_NODE = 8  # e.g. 8 gpus
+NPROC_PER_NODE = 1  # e.g. 8 gpus
 
 MASTER_ADDR = 'SET_IT'
 MASTER_PORT = 12345
@@ -55,8 +55,9 @@ def get_dist_launch(args):  # some examples
     elif args.dist.startswith('gpu'):  # use one gpu, --dist "gpu0"
         num = int(args.dist[3:])
         assert 0 <= num <= 8
-        return "CUDA_VISIBLE_DEVICES={:} WORLD_SIZE=1 python3 -m torch.distributed.launch --nproc_per_node=1 " \
-               "--nnodes=1 ".format(num)
+        # return "CUDA_VISIBLE_DEVICES={:} WORLD_SIZE=1 python3 -m torch.distributed.launch --nproc_per_node=1 " \
+        #        "--nnodes=1 ".format(num)
+        return f"CUDA_VISIBLE_DEVICES={num} WORLD_SIZE=1 torchrun --nproc_per_node=1 --nnodes=1"
 
     else:
         raise ValueError
@@ -222,6 +223,17 @@ def run_coco_captioning(args, load_capt_pretrain=False, scst=False):
               f"{f'--output_hdfs {args.output_hdfs}' if len(args.output_hdfs) else ''} --output_dir {args.output_dir} "
               f"--bs {args.bs} --seed {args.seed} --checkpoint {args.checkpoint} "
               f"{'--scst' if scst else ''}  {'--load_capt_pretrain' if load_capt_pretrain else ''} {'--evaluate' if args.evaluate else ''}")
+    
+def run_bbox_finetune(args):
+    print("### Fine-tuning on bbox dataset", flush=True)
+    dist_launch = get_dist_launch(args)
+
+    if not os.path.exists(args.config):
+        args.config = './configs/Bbox_finetune.yaml'
+
+    os.system(f"{dist_launch} "
+            f"--use_env Bbox_finetune.py --config {args.config} "
+            f"--output_dir {args.output_dir} --bs {args.bs} --checkpoint {args.checkpoint}")
 
 
 def run(args):
@@ -322,13 +334,17 @@ def run(args):
         args.config = f"configs/vlue-base-test/Grounding_weakly.yaml"
         run_refcoco(args)
 
+    elif args.task == 'bbox_finetune':
+        args.config = './configs/Bbox_finetune.yaml'
+        run_bbox_finetune(args)
+
     else:
         raise NotImplementedError(f"task == {args.task}")
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--task', default='refcoco_bbox', type=str, required=False)
+    parser.add_argument('--task', default='bbox_finetune', type=str, required=False)
     parser.add_argument('--dist', default="gpu0", type=str, required=False, help="see func get_dist_launch for details")
 
     parser.add_argument('--config', default='', type=str, help="if not given, use default")

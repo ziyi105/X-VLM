@@ -2,6 +2,9 @@ from models import XVLMBase, load_pretrained
 import torch
 import numpy as np
 from scipy.interpolate import RegularGridInterpolator
+import torch.nn.functional as F
+from dataset.utils import computeIoU 
+
 
 def interpolate_relative_position_bias_table(state_dict, model):
     """
@@ -53,6 +56,44 @@ class XVLM(XVLMBase):
         print('load checkpoint from %s' % ckpt_rpath)
         print("missing_keys: ", [p for p in msg.missing_keys if 'vision_encoder' not in p])
         print("unexpected_keys: ", msg.unexpected_keys)
+
+    def get_bbox_loss(self, pred_bbox, target_bbox):
+        """
+        Compute the bounding box loss and generalized IoU (GIoU) loss.
+
+        Args:
+            pred_bbox (Tensor): Predicted bounding boxes (N, 4) in [center_x, center_y, width, height] format.
+            target_bbox (Tensor): Ground truth bounding boxes (N, 4) in [center_x, center_y, width, height] format.
+
+        Returns:
+            loss_bbox (Tensor): L1 loss for bounding box regression.
+            loss_giou (Tensor): Generalized IoU loss.
+        """
+        fixed_width = target_bbox[:, 2]
+        fixed_height = target_bbox[:, 3]
+
+        # L1 loss for bounding box regression
+        loss_bbox = F.l1_loss(pred_bbox, target_bbox, reduction='mean')
+
+        # Convert bounding boxes to [x1, y1, x2, y2] format
+        pred_x1 = pred_bbox[:, 0] - fixed_width / 2
+        pred_y1 = pred_bbox[:, 1] - fixed_height / 2
+        pred_x2 = pred_bbox[:, 0] + fixed_width / 2
+        pred_y2 = pred_bbox[:, 1] + fixed_height / 2
+
+        target_x1 = target_bbox[:, 0] - fixed_width / 2
+        target_y1 = target_bbox[:, 1] - fixed_height / 2
+        target_x2 = target_bbox[:, 0] + fixed_width / 2
+        target_y2 = target_bbox[:, 1] + fixed_height / 2
+
+        # Compute IoU and GIoU loss
+        pred_boxes = torch.stack([pred_x1, pred_y1, pred_x2, pred_y2], dim=1)
+        target_boxes = torch.stack([target_x1, target_y1, target_x2, target_y2], dim=1)
+
+        iou = computeIoU(pred_boxes, target_boxes)  # Reuse IoU computation
+        loss_giou = 1 - iou.mean()
+
+        return loss_bbox, loss_giou
 
     def forward(self, image, text_ids, text_atts, target_bbox=None):
         image_embeds, _ = self.get_vision_embeds(image)

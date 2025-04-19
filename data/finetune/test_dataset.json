@@ -1,0 +1,5744 @@
+[
+    {
+        "image": "cropped_scene_149.jpeg",
+        "text": "to the left of a row of three chairs lined up along a counter",
+        "bbox": [
+            14,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 1
+    },
+    {
+        "image": "cropped_scene_149.jpeg",
+        "text": "to the left of a rectangular kitchen island that is centered in the room",
+        "bbox": [
+            14,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 2
+    },
+    {
+        "image": "cropped_scene_149.jpeg",
+        "text": "above the row of barchairs",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 3
+    },
+    {
+        "image": "cropped_scene_149.jpeg",
+        "text": "to the right of a row of chairs at the kitchen island",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 4
+    },
+    {
+        "image": "cropped_scene_149.jpeg",
+        "text": "to the left of the sink and the countertop",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 5
+    },
+    {
+        "image": "cropped_scene_149.jpeg",
+        "text": "in front of the refrigerator",
+        "bbox": [
+            98,
+            70,
+            14,
+            14
+        ],
+        "ref_id": 6
+    },
+    {
+        "image": "cropped_scene_150.jpeg",
+        "text": "to the left of a row of three chairs lined up along a counter",
+        "bbox": [
+            14,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 7
+    },
+    {
+        "image": "cropped_scene_150.jpeg",
+        "text": "to the left of a rectangular kitchen island that is centered in the room",
+        "bbox": [
+            14,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 8
+    },
+    {
+        "image": "cropped_scene_150.jpeg",
+        "text": "above the row of barchairs",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 9
+    },
+    {
+        "image": "cropped_scene_150.jpeg",
+        "text": "to the right of a row of chairs at the kitchen island",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 10
+    },
+    {
+        "image": "cropped_scene_150.jpeg",
+        "text": "to the left of the sink and the countertop",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 11
+    },
+    {
+        "image": "cropped_scene_150.jpeg",
+        "text": "in front of the refrigerator",
+        "bbox": [
+            98,
+            70,
+            14,
+            14
+        ],
+        "ref_id": 12
+    },
+    {
+        "image": "cropped_scene_151.jpeg",
+        "text": "to the left of a row of three chairs lined up along a counter",
+        "bbox": [
+            14,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 13
+    },
+    {
+        "image": "cropped_scene_151.jpeg",
+        "text": "to the left of a rectangular kitchen island that is centered in the room",
+        "bbox": [
+            14,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 14
+    },
+    {
+        "image": "cropped_scene_151.jpeg",
+        "text": "above the row of barchairs",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 15
+    },
+    {
+        "image": "cropped_scene_151.jpeg",
+        "text": "to the right of a row of chairs at the kitchen island",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 16
+    },
+    {
+        "image": "cropped_scene_151.jpeg",
+        "text": "to the left of the sink and the countertop",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 17
+    },
+    {
+        "image": "cropped_scene_151.jpeg",
+        "text": "in front of the refrigerator",
+        "bbox": [
+            98,
+            70,
+            14,
+            14
+        ],
+        "ref_id": 18
+    },
+    {
+        "image": "cropped_scene_152.jpeg",
+        "text": "to the left of a row of three chairs lined up along a counter",
+        "bbox": [
+            14,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 19
+    },
+    {
+        "image": "cropped_scene_152.jpeg",
+        "text": "to the left of a rectangular kitchen island that is centered in the room",
+        "bbox": [
+            14,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 20
+    },
+    {
+        "image": "cropped_scene_152.jpeg",
+        "text": "above the row of barchairs",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 21
+    },
+    {
+        "image": "cropped_scene_152.jpeg",
+        "text": "to the right of a row of chairs at the kitchen island",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 22
+    },
+    {
+        "image": "cropped_scene_152.jpeg",
+        "text": "to the left of the sink and the countertop",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 23
+    },
+    {
+        "image": "cropped_scene_152.jpeg",
+        "text": "in front of the refrigerator",
+        "bbox": [
+            98,
+            70,
+            14,
+            14
+        ],
+        "ref_id": 24
+    },
+    {
+        "image": "cropped_scene_153.jpeg",
+        "text": "to the left of a row of three chairs lined up along a counter",
+        "bbox": [
+            14,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 25
+    },
+    {
+        "image": "cropped_scene_153.jpeg",
+        "text": "to the left of a rectangular kitchen island that is centered in the room",
+        "bbox": [
+            14,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 26
+    },
+    {
+        "image": "cropped_scene_153.jpeg",
+        "text": "above the row of barchairs",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 27
+    },
+    {
+        "image": "cropped_scene_153.jpeg",
+        "text": "to the right of a row of chairs at the kitchen island",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 28
+    },
+    {
+        "image": "cropped_scene_153.jpeg",
+        "text": "to the left of the sink and the countertop",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 29
+    },
+    {
+        "image": "cropped_scene_153.jpeg",
+        "text": "in front of the refrigerator",
+        "bbox": [
+            98,
+            70,
+            14,
+            14
+        ],
+        "ref_id": 30
+    },
+    {
+        "image": "cropped_scene_154.jpeg",
+        "text": "to the left of a row of three chairs lined up along a counter",
+        "bbox": [
+            14,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 31
+    },
+    {
+        "image": "cropped_scene_154.jpeg",
+        "text": "to the left of a rectangular kitchen island that is centered in the room",
+        "bbox": [
+            14,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 32
+    },
+    {
+        "image": "cropped_scene_154.jpeg",
+        "text": "above the row of barchairs",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 33
+    },
+    {
+        "image": "cropped_scene_154.jpeg",
+        "text": "to the right of a row of chairs at the kitchen island",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 34
+    },
+    {
+        "image": "cropped_scene_154.jpeg",
+        "text": "to the left of the sink and the countertop",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 35
+    },
+    {
+        "image": "cropped_scene_154.jpeg",
+        "text": "in front of the refrigerator",
+        "bbox": [
+            98,
+            70,
+            14,
+            14
+        ],
+        "ref_id": 36
+    },
+    {
+        "image": "cropped_scene_155.jpeg",
+        "text": "to the left of a row of three chairs lined up along a counter",
+        "bbox": [
+            14,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 37
+    },
+    {
+        "image": "cropped_scene_155.jpeg",
+        "text": "to the left of a rectangular kitchen island that is centered in the room",
+        "bbox": [
+            14,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 38
+    },
+    {
+        "image": "cropped_scene_155.jpeg",
+        "text": "above the row of barchairs",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 39
+    },
+    {
+        "image": "cropped_scene_155.jpeg",
+        "text": "to the right of a row of chairs at the kitchen island",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 40
+    },
+    {
+        "image": "cropped_scene_155.jpeg",
+        "text": "to the left of the sink and the countertop",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 41
+    },
+    {
+        "image": "cropped_scene_155.jpeg",
+        "text": "in front of the refrigerator",
+        "bbox": [
+            98,
+            70,
+            14,
+            14
+        ],
+        "ref_id": 42
+    },
+    {
+        "image": "cropped_scene_156.jpeg",
+        "text": "beside he chair in the center of the room",
+        "bbox": [
+            112,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 43
+    },
+    {
+        "image": "cropped_scene_156.jpeg",
+        "text": "below the black stovetop and oven area",
+        "bbox": [
+            112,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 44
+    },
+    {
+        "image": "cropped_scene_156.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 45
+    },
+    {
+        "image": "cropped_scene_156.jpeg",
+        "text": "in front of the leftmost chair",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 46
+    },
+    {
+        "image": "cropped_scene_156.jpeg",
+        "text": "to the left of the kitchen island",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 47
+    },
+    {
+        "image": "cropped_scene_156.jpeg",
+        "text": " directly above the lower left corner of the room",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 48
+    },
+    {
+        "image": "cropped_scene_156.jpeg",
+        "text": "to the left of the island countertop",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 49
+    },
+    {
+        "image": "cropped_scene_156.jpeg",
+        "text": "beside the chair at bottom left corner",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 50
+    },
+    {
+        "image": "cropped_scene_157.jpeg",
+        "text": "beside he chair in the center of the room",
+        "bbox": [
+            112,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 51
+    },
+    {
+        "image": "cropped_scene_157.jpeg",
+        "text": "below the black stovetop and oven area",
+        "bbox": [
+            112,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 52
+    },
+    {
+        "image": "cropped_scene_157.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 53
+    },
+    {
+        "image": "cropped_scene_157.jpeg",
+        "text": "in front of the leftmost chair",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 54
+    },
+    {
+        "image": "cropped_scene_157.jpeg",
+        "text": "to the left of the kitchen island",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 55
+    },
+    {
+        "image": "cropped_scene_157.jpeg",
+        "text": " directly above the lower left corner of the room",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 56
+    },
+    {
+        "image": "cropped_scene_157.jpeg",
+        "text": "to the left of the island countertop",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 57
+    },
+    {
+        "image": "cropped_scene_157.jpeg",
+        "text": "beside the chair at bottom left corner",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 58
+    },
+    {
+        "image": "cropped_scene_158.jpeg",
+        "text": "beside he chair in the center of the room",
+        "bbox": [
+            112,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 59
+    },
+    {
+        "image": "cropped_scene_158.jpeg",
+        "text": "below the black stovetop and oven area",
+        "bbox": [
+            112,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 60
+    },
+    {
+        "image": "cropped_scene_158.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 61
+    },
+    {
+        "image": "cropped_scene_158.jpeg",
+        "text": "in front of the leftmost chair",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 62
+    },
+    {
+        "image": "cropped_scene_158.jpeg",
+        "text": "to the left of the kitchen island",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 63
+    },
+    {
+        "image": "cropped_scene_158.jpeg",
+        "text": " directly above the lower left corner of the room",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 64
+    },
+    {
+        "image": "cropped_scene_158.jpeg",
+        "text": "to the left of the island countertop",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 65
+    },
+    {
+        "image": "cropped_scene_158.jpeg",
+        "text": "beside the chair at bottom left corner",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 66
+    },
+    {
+        "image": "cropped_scene_159.jpeg",
+        "text": "beside he chair in the center of the room",
+        "bbox": [
+            112,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 67
+    },
+    {
+        "image": "cropped_scene_159.jpeg",
+        "text": "below the black stovetop and oven area",
+        "bbox": [
+            112,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 68
+    },
+    {
+        "image": "cropped_scene_159.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 69
+    },
+    {
+        "image": "cropped_scene_159.jpeg",
+        "text": "in front of the leftmost chair",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 70
+    },
+    {
+        "image": "cropped_scene_159.jpeg",
+        "text": "to the left of the kitchen island",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 71
+    },
+    {
+        "image": "cropped_scene_159.jpeg",
+        "text": " directly above the lower left corner of the room",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 72
+    },
+    {
+        "image": "cropped_scene_159.jpeg",
+        "text": "to the left of the island countertop",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 73
+    },
+    {
+        "image": "cropped_scene_159.jpeg",
+        "text": "beside the chair at bottom left corner",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 74
+    },
+    {
+        "image": "cropped_scene_160.jpeg",
+        "text": "beside he chair in the center of the room",
+        "bbox": [
+            112,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 75
+    },
+    {
+        "image": "cropped_scene_160.jpeg",
+        "text": "below the black stovetop and oven area",
+        "bbox": [
+            112,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 76
+    },
+    {
+        "image": "cropped_scene_160.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 77
+    },
+    {
+        "image": "cropped_scene_160.jpeg",
+        "text": "in front of the leftmost chair",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 78
+    },
+    {
+        "image": "cropped_scene_160.jpeg",
+        "text": "to the left of the kitchen island",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 79
+    },
+    {
+        "image": "cropped_scene_160.jpeg",
+        "text": " directly above the lower left corner of the room",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 80
+    },
+    {
+        "image": "cropped_scene_160.jpeg",
+        "text": "to the left of the island countertop",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 81
+    },
+    {
+        "image": "cropped_scene_160.jpeg",
+        "text": "beside the chair at bottom left corner",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 82
+    },
+    {
+        "image": "cropped_scene_161.jpeg",
+        "text": "beside he chair in the center of the room",
+        "bbox": [
+            112,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 83
+    },
+    {
+        "image": "cropped_scene_161.jpeg",
+        "text": "below the black stovetop and oven area",
+        "bbox": [
+            112,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 84
+    },
+    {
+        "image": "cropped_scene_161.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 85
+    },
+    {
+        "image": "cropped_scene_161.jpeg",
+        "text": "in front of the leftmost chair",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 86
+    },
+    {
+        "image": "cropped_scene_161.jpeg",
+        "text": "to the left of the kitchen island",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 87
+    },
+    {
+        "image": "cropped_scene_161.jpeg",
+        "text": " directly above the lower left corner of the room",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 88
+    },
+    {
+        "image": "cropped_scene_161.jpeg",
+        "text": "to the left of the island countertop",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 89
+    },
+    {
+        "image": "cropped_scene_161.jpeg",
+        "text": "beside the chair at bottom left corner",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 90
+    },
+    {
+        "image": "cropped_scene_162.jpeg",
+        "text": "beside he chair in the center of the room",
+        "bbox": [
+            112,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 91
+    },
+    {
+        "image": "cropped_scene_162.jpeg",
+        "text": "below the black stovetop and oven area",
+        "bbox": [
+            112,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 92
+    },
+    {
+        "image": "cropped_scene_162.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 93
+    },
+    {
+        "image": "cropped_scene_162.jpeg",
+        "text": "in front of the leftmost chair",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 94
+    },
+    {
+        "image": "cropped_scene_162.jpeg",
+        "text": "to the left of the kitchen island",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 95
+    },
+    {
+        "image": "cropped_scene_162.jpeg",
+        "text": " directly above the lower left corner of the room",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 96
+    },
+    {
+        "image": "cropped_scene_162.jpeg",
+        "text": "to the left of the island countertop",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 97
+    },
+    {
+        "image": "cropped_scene_162.jpeg",
+        "text": "beside the chair at bottom left corner",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 98
+    },
+    {
+        "image": "cropped_scene_163.jpeg",
+        "text": "beside he chair in the center of the room",
+        "bbox": [
+            112,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 99
+    },
+    {
+        "image": "cropped_scene_163.jpeg",
+        "text": "below the black stovetop and oven area",
+        "bbox": [
+            112,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 100
+    },
+    {
+        "image": "cropped_scene_163.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 101
+    },
+    {
+        "image": "cropped_scene_163.jpeg",
+        "text": "in front of the leftmost chair",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 102
+    },
+    {
+        "image": "cropped_scene_163.jpeg",
+        "text": "to the left of the kitchen island",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 103
+    },
+    {
+        "image": "cropped_scene_163.jpeg",
+        "text": " directly above the lower left corner of the room",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 104
+    },
+    {
+        "image": "cropped_scene_163.jpeg",
+        "text": "to the left of the island countertop",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 105
+    },
+    {
+        "image": "cropped_scene_163.jpeg",
+        "text": "beside the chair at bottom left corner",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 106
+    },
+    {
+        "image": "cropped_scene_164.jpeg",
+        "text": "centrally on the kitchen floor, directly in front of a small kitchen island",
+        "bbox": [
+            84,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 107
+    },
+    {
+        "image": "cropped_scene_164.jpeg",
+        "text": "near the chair in the center of the room",
+        "bbox": [
+            84,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 108
+    },
+    {
+        "image": "cropped_scene_164.jpeg",
+        "text": "above two chairs at the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 109
+    },
+    {
+        "image": "cropped_scene_164.jpeg",
+        "text": "in front of a short section of countertop on the left side",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 110
+    },
+    {
+        "image": "cropped_scene_164.jpeg",
+        "text": "across from a rectangular kitchen island on the upper side",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 111
+    },
+    {
+        "image": "cropped_scene_164.jpeg",
+        "text": "to the left of the central island countertop",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 112
+    },
+    {
+        "image": "cropped_scene_164.jpeg",
+        "text": "below the long horizontal table on the left",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 113
+    },
+    {
+        "image": "cropped_scene_164.jpeg",
+        "text": "left of the vertical dining table with chairs",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 114
+    },
+    {
+        "image": "cropped_scene_164.jpeg",
+        "text": " to the left of the refrigerator",
+        "bbox": [
+            98,
+            70,
+            14,
+            14
+        ],
+        "ref_id": 115
+    },
+    {
+        "image": "cropped_scene_165.jpeg",
+        "text": "centrally on the kitchen floor, directly in front of a small kitchen island",
+        "bbox": [
+            84,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 116
+    },
+    {
+        "image": "cropped_scene_165.jpeg",
+        "text": "near the chair in the center of the room",
+        "bbox": [
+            84,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 117
+    },
+    {
+        "image": "cropped_scene_165.jpeg",
+        "text": "above two chairs at the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 118
+    },
+    {
+        "image": "cropped_scene_165.jpeg",
+        "text": "in front of a short section of countertop on the left side",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 119
+    },
+    {
+        "image": "cropped_scene_165.jpeg",
+        "text": "across from a rectangular kitchen island on the upper side",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 120
+    },
+    {
+        "image": "cropped_scene_165.jpeg",
+        "text": "to the left of the central island countertop",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 121
+    },
+    {
+        "image": "cropped_scene_165.jpeg",
+        "text": "below the long horizontal table on the left",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 122
+    },
+    {
+        "image": "cropped_scene_165.jpeg",
+        "text": "left of the vertical dining table with chairs",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 123
+    },
+    {
+        "image": "cropped_scene_165.jpeg",
+        "text": " to the left of the refrigerator",
+        "bbox": [
+            98,
+            70,
+            14,
+            14
+        ],
+        "ref_id": 124
+    },
+    {
+        "image": "cropped_scene_166.jpeg",
+        "text": "centrally on the kitchen floor, directly in front of a small kitchen island",
+        "bbox": [
+            84,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 125
+    },
+    {
+        "image": "cropped_scene_166.jpeg",
+        "text": "near the chair in the center of the room",
+        "bbox": [
+            84,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 126
+    },
+    {
+        "image": "cropped_scene_166.jpeg",
+        "text": "above two chairs at the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 127
+    },
+    {
+        "image": "cropped_scene_166.jpeg",
+        "text": "in front of a short section of countertop on the left side",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 128
+    },
+    {
+        "image": "cropped_scene_166.jpeg",
+        "text": "across from a rectangular kitchen island on the upper side",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 129
+    },
+    {
+        "image": "cropped_scene_166.jpeg",
+        "text": "to the left of the central island countertop",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 130
+    },
+    {
+        "image": "cropped_scene_166.jpeg",
+        "text": "below the long horizontal table on the left",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 131
+    },
+    {
+        "image": "cropped_scene_166.jpeg",
+        "text": "left of the vertical dining table with chairs",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 132
+    },
+    {
+        "image": "cropped_scene_166.jpeg",
+        "text": " to the left of the refrigerator",
+        "bbox": [
+            98,
+            70,
+            14,
+            14
+        ],
+        "ref_id": 133
+    },
+    {
+        "image": "cropped_scene_167.jpeg",
+        "text": "centrally on the kitchen floor, directly in front of a small kitchen island",
+        "bbox": [
+            84,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 134
+    },
+    {
+        "image": "cropped_scene_167.jpeg",
+        "text": "near the chair in the center of the room",
+        "bbox": [
+            84,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 135
+    },
+    {
+        "image": "cropped_scene_167.jpeg",
+        "text": "above two chairs at the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 136
+    },
+    {
+        "image": "cropped_scene_167.jpeg",
+        "text": "in front of a short section of countertop on the left side",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 137
+    },
+    {
+        "image": "cropped_scene_167.jpeg",
+        "text": "across from a rectangular kitchen island on the upper side",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 138
+    },
+    {
+        "image": "cropped_scene_167.jpeg",
+        "text": "to the left of the central island countertop",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 139
+    },
+    {
+        "image": "cropped_scene_167.jpeg",
+        "text": "below the long horizontal table on the left",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 140
+    },
+    {
+        "image": "cropped_scene_167.jpeg",
+        "text": "left of the vertical dining table with chairs",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 141
+    },
+    {
+        "image": "cropped_scene_167.jpeg",
+        "text": " to the left of the refrigerator",
+        "bbox": [
+            98,
+            70,
+            14,
+            14
+        ],
+        "ref_id": 142
+    },
+    {
+        "image": "cropped_scene_168.jpeg",
+        "text": "centrally on the kitchen floor, directly in front of a small kitchen island",
+        "bbox": [
+            84,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 143
+    },
+    {
+        "image": "cropped_scene_168.jpeg",
+        "text": "near the chair in the center of the room",
+        "bbox": [
+            84,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 144
+    },
+    {
+        "image": "cropped_scene_168.jpeg",
+        "text": "above two chairs at the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 145
+    },
+    {
+        "image": "cropped_scene_168.jpeg",
+        "text": "in front of a short section of countertop on the left side",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 146
+    },
+    {
+        "image": "cropped_scene_168.jpeg",
+        "text": "across from a rectangular kitchen island on the upper side",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 147
+    },
+    {
+        "image": "cropped_scene_168.jpeg",
+        "text": "to the left of the central island countertop",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 148
+    },
+    {
+        "image": "cropped_scene_168.jpeg",
+        "text": "below the long horizontal table on the left",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 149
+    },
+    {
+        "image": "cropped_scene_168.jpeg",
+        "text": "left of the vertical dining table with chairs",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 150
+    },
+    {
+        "image": "cropped_scene_168.jpeg",
+        "text": " to the left of the refrigerator",
+        "bbox": [
+            98,
+            70,
+            14,
+            14
+        ],
+        "ref_id": 151
+    },
+    {
+        "image": "cropped_scene_169.jpeg",
+        "text": "centrally on the kitchen floor, directly in front of a small kitchen island",
+        "bbox": [
+            84,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 152
+    },
+    {
+        "image": "cropped_scene_169.jpeg",
+        "text": "near the chair in the center of the room",
+        "bbox": [
+            84,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 153
+    },
+    {
+        "image": "cropped_scene_169.jpeg",
+        "text": "above two chairs at the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 154
+    },
+    {
+        "image": "cropped_scene_169.jpeg",
+        "text": "in front of a short section of countertop on the left side",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 155
+    },
+    {
+        "image": "cropped_scene_169.jpeg",
+        "text": "across from a rectangular kitchen island on the upper side",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 156
+    },
+    {
+        "image": "cropped_scene_169.jpeg",
+        "text": "to the left of the central island countertop",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 157
+    },
+    {
+        "image": "cropped_scene_169.jpeg",
+        "text": "below the long horizontal table on the left",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 158
+    },
+    {
+        "image": "cropped_scene_169.jpeg",
+        "text": "left of the vertical dining table with chairs",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 159
+    },
+    {
+        "image": "cropped_scene_169.jpeg",
+        "text": " to the left of the refrigerator",
+        "bbox": [
+            98,
+            70,
+            14,
+            14
+        ],
+        "ref_id": 160
+    },
+    {
+        "image": "cropped_scene_170.jpeg",
+        "text": "centrally on the kitchen floor, directly in front of a small kitchen island",
+        "bbox": [
+            84,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 161
+    },
+    {
+        "image": "cropped_scene_170.jpeg",
+        "text": "near the chair in the center of the room",
+        "bbox": [
+            84,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 162
+    },
+    {
+        "image": "cropped_scene_170.jpeg",
+        "text": "above two chairs at the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 163
+    },
+    {
+        "image": "cropped_scene_170.jpeg",
+        "text": "in front of a short section of countertop on the left side",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 164
+    },
+    {
+        "image": "cropped_scene_170.jpeg",
+        "text": "across from a rectangular kitchen island on the upper side",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 165
+    },
+    {
+        "image": "cropped_scene_170.jpeg",
+        "text": "to the left of the central island countertop",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 166
+    },
+    {
+        "image": "cropped_scene_170.jpeg",
+        "text": "below the long horizontal table on the left",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 167
+    },
+    {
+        "image": "cropped_scene_170.jpeg",
+        "text": "left of the vertical dining table with chairs",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 168
+    },
+    {
+        "image": "cropped_scene_170.jpeg",
+        "text": " to the left of the refrigerator",
+        "bbox": [
+            98,
+            70,
+            14,
+            14
+        ],
+        "ref_id": 169
+    },
+    {
+        "image": "cropped_scene_171.jpeg",
+        "text": "centrally on the kitchen floor, directly in front of a small kitchen island",
+        "bbox": [
+            84,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 170
+    },
+    {
+        "image": "cropped_scene_171.jpeg",
+        "text": "near the chair in the center of the room",
+        "bbox": [
+            84,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 171
+    },
+    {
+        "image": "cropped_scene_171.jpeg",
+        "text": "above two chairs at the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 172
+    },
+    {
+        "image": "cropped_scene_171.jpeg",
+        "text": "in front of a short section of countertop on the left side",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 173
+    },
+    {
+        "image": "cropped_scene_171.jpeg",
+        "text": "across from a rectangular kitchen island on the upper side",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 174
+    },
+    {
+        "image": "cropped_scene_171.jpeg",
+        "text": "to the left of the central island countertop",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 175
+    },
+    {
+        "image": "cropped_scene_171.jpeg",
+        "text": "below the long horizontal table on the left",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 176
+    },
+    {
+        "image": "cropped_scene_171.jpeg",
+        "text": "left of the vertical dining table with chairs",
+        "bbox": [
+            28,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 177
+    },
+    {
+        "image": "cropped_scene_171.jpeg",
+        "text": " to the left of the refrigerator",
+        "bbox": [
+            98,
+            70,
+            14,
+            14
+        ],
+        "ref_id": 178
+    },
+    {
+        "image": "cropped_scene_172.jpeg",
+        "text": "above the horizontal section of the kitchen counter",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 179
+    },
+    {
+        "image": "cropped_scene_172.jpeg",
+        "text": "below the dining table with chairs nearby",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 180
+    },
+    {
+        "image": "cropped_scene_172.jpeg",
+        "text": "in the middle fo two chairs",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 181
+    },
+    {
+        "image": "cropped_scene_172.jpeg",
+        "text": "near the center of the kitchen floor, to the left of the dining table",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 182
+    },
+    {
+        "image": "cropped_scene_172.jpeg",
+        "text": " to the left of the stove and countertop area",
+        "bbox": [
+            112,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 183
+    },
+    {
+        "image": "cropped_scene_172.jpeg",
+        "text": "in front of the stove",
+        "bbox": [
+            112,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 184
+    },
+    {
+        "image": "cropped_scene_173.jpeg",
+        "text": "above the horizontal section of the kitchen counter",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 185
+    },
+    {
+        "image": "cropped_scene_173.jpeg",
+        "text": "below the dining table with chairs nearby",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 186
+    },
+    {
+        "image": "cropped_scene_173.jpeg",
+        "text": "in the middle fo two chairs",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 187
+    },
+    {
+        "image": "cropped_scene_173.jpeg",
+        "text": "near the center of the kitchen floor, to the left of the dining table",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 188
+    },
+    {
+        "image": "cropped_scene_173.jpeg",
+        "text": " to the left of the stove and countertop area",
+        "bbox": [
+            112,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 189
+    },
+    {
+        "image": "cropped_scene_173.jpeg",
+        "text": "in front of the stove",
+        "bbox": [
+            112,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 190
+    },
+    {
+        "image": "cropped_scene_174.jpeg",
+        "text": "above the horizontal section of the kitchen counter",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 191
+    },
+    {
+        "image": "cropped_scene_174.jpeg",
+        "text": "below the dining table with chairs nearby",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 192
+    },
+    {
+        "image": "cropped_scene_174.jpeg",
+        "text": "in the middle fo two chairs",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 193
+    },
+    {
+        "image": "cropped_scene_174.jpeg",
+        "text": "near the center of the kitchen floor, to the left of the dining table",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 194
+    },
+    {
+        "image": "cropped_scene_174.jpeg",
+        "text": " to the left of the stove and countertop area",
+        "bbox": [
+            112,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 195
+    },
+    {
+        "image": "cropped_scene_174.jpeg",
+        "text": "in front of the stove",
+        "bbox": [
+            112,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 196
+    },
+    {
+        "image": "cropped_scene_175.jpeg",
+        "text": "above the horizontal section of the kitchen counter",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 197
+    },
+    {
+        "image": "cropped_scene_175.jpeg",
+        "text": "below the dining table with chairs nearby",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 198
+    },
+    {
+        "image": "cropped_scene_175.jpeg",
+        "text": "in the middle fo two chairs",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 199
+    },
+    {
+        "image": "cropped_scene_175.jpeg",
+        "text": "near the center of the kitchen floor, to the left of the dining table",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 200
+    },
+    {
+        "image": "cropped_scene_175.jpeg",
+        "text": " to the left of the stove and countertop area",
+        "bbox": [
+            112,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 201
+    },
+    {
+        "image": "cropped_scene_175.jpeg",
+        "text": "in front of the stove",
+        "bbox": [
+            112,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 202
+    },
+    {
+        "image": "cropped_scene_176.jpeg",
+        "text": "above the horizontal section of the kitchen counter",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 203
+    },
+    {
+        "image": "cropped_scene_176.jpeg",
+        "text": "below the dining table with chairs nearby",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 204
+    },
+    {
+        "image": "cropped_scene_176.jpeg",
+        "text": "in the middle fo two chairs",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 205
+    },
+    {
+        "image": "cropped_scene_176.jpeg",
+        "text": "near the center of the kitchen floor, to the left of the dining table",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 206
+    },
+    {
+        "image": "cropped_scene_176.jpeg",
+        "text": " to the left of the stove and countertop area",
+        "bbox": [
+            112,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 207
+    },
+    {
+        "image": "cropped_scene_176.jpeg",
+        "text": "in front of the stove",
+        "bbox": [
+            112,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 208
+    },
+    {
+        "image": "cropped_scene_177.jpeg",
+        "text": "above the horizontal section of the kitchen counter",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 209
+    },
+    {
+        "image": "cropped_scene_177.jpeg",
+        "text": "below the dining table with chairs nearby",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 210
+    },
+    {
+        "image": "cropped_scene_177.jpeg",
+        "text": "in the middle fo two chairs",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 211
+    },
+    {
+        "image": "cropped_scene_177.jpeg",
+        "text": "near the center of the kitchen floor, to the left of the dining table",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 212
+    },
+    {
+        "image": "cropped_scene_177.jpeg",
+        "text": " to the left of the stove and countertop area",
+        "bbox": [
+            112,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 213
+    },
+    {
+        "image": "cropped_scene_177.jpeg",
+        "text": "in front of the stove",
+        "bbox": [
+            112,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 214
+    },
+    {
+        "image": "cropped_scene_178.jpeg",
+        "text": "above the horizontal section of the kitchen counter",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 215
+    },
+    {
+        "image": "cropped_scene_178.jpeg",
+        "text": "below the dining table with chairs nearby",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 216
+    },
+    {
+        "image": "cropped_scene_178.jpeg",
+        "text": "in the middle fo two chairs",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 217
+    },
+    {
+        "image": "cropped_scene_178.jpeg",
+        "text": "near the center of the kitchen floor, to the left of the dining table",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 218
+    },
+    {
+        "image": "cropped_scene_178.jpeg",
+        "text": " to the left of the stove and countertop area",
+        "bbox": [
+            112,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 219
+    },
+    {
+        "image": "cropped_scene_178.jpeg",
+        "text": "in front of the stove",
+        "bbox": [
+            112,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 220
+    },
+    {
+        "image": "cropped_scene_179.jpeg",
+        "text": "above the horizontal section of the kitchen counter",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 221
+    },
+    {
+        "image": "cropped_scene_179.jpeg",
+        "text": "below the dining table with chairs nearby",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 222
+    },
+    {
+        "image": "cropped_scene_179.jpeg",
+        "text": "in the middle fo two chairs",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 223
+    },
+    {
+        "image": "cropped_scene_179.jpeg",
+        "text": "near the center of the kitchen floor, to the left of the dining table",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 224
+    },
+    {
+        "image": "cropped_scene_179.jpeg",
+        "text": " to the left of the stove and countertop area",
+        "bbox": [
+            112,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 225
+    },
+    {
+        "image": "cropped_scene_179.jpeg",
+        "text": "in front of the stove",
+        "bbox": [
+            112,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 226
+    },
+    {
+        "image": "cropped_scene_180.jpeg",
+        "text": "to the left of the small table with chairs",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 227
+    },
+    {
+        "image": "cropped_scene_180.jpeg",
+        "text": "to the left of the kitchen island",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 228
+    },
+    {
+        "image": "cropped_scene_180.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 229
+    },
+    {
+        "image": "cropped_scene_180.jpeg",
+        "text": "situated on the left side of the main walking path, near the kitchen area",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 230
+    },
+    {
+        "image": "cropped_scene_180.jpeg",
+        "text": "near the chair centered in the room",
+        "bbox": [
+            112,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 231
+    },
+    {
+        "image": "cropped_scene_180.jpeg",
+        "text": "to the right of the kitchen island",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 232
+    },
+    {
+        "image": "cropped_scene_180.jpeg",
+        "text": "in front of the bar chairs",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 233
+    },
+    {
+        "image": "cropped_scene_181.jpeg",
+        "text": "to the left of the small table with chairs",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 234
+    },
+    {
+        "image": "cropped_scene_181.jpeg",
+        "text": "to the left of the kitchen island",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 235
+    },
+    {
+        "image": "cropped_scene_181.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 236
+    },
+    {
+        "image": "cropped_scene_181.jpeg",
+        "text": "situated on the left side of the main walking path, near the kitchen area",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 237
+    },
+    {
+        "image": "cropped_scene_181.jpeg",
+        "text": "near the chair centered in the room",
+        "bbox": [
+            112,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 238
+    },
+    {
+        "image": "cropped_scene_181.jpeg",
+        "text": "to the right of the kitchen island",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 239
+    },
+    {
+        "image": "cropped_scene_181.jpeg",
+        "text": "in front of the bar chairs",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 240
+    },
+    {
+        "image": "cropped_scene_182.jpeg",
+        "text": "to the left of the small table with chairs",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 241
+    },
+    {
+        "image": "cropped_scene_182.jpeg",
+        "text": "to the left of the kitchen island",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 242
+    },
+    {
+        "image": "cropped_scene_182.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 243
+    },
+    {
+        "image": "cropped_scene_182.jpeg",
+        "text": "situated on the left side of the main walking path, near the kitchen area",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 244
+    },
+    {
+        "image": "cropped_scene_182.jpeg",
+        "text": "near the chair centered in the room",
+        "bbox": [
+            112,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 245
+    },
+    {
+        "image": "cropped_scene_182.jpeg",
+        "text": "to the right of the kitchen island",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 246
+    },
+    {
+        "image": "cropped_scene_182.jpeg",
+        "text": "in front of the bar chairs",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 247
+    },
+    {
+        "image": "cropped_scene_183.jpeg",
+        "text": "to the left of the small table with chairs",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 248
+    },
+    {
+        "image": "cropped_scene_183.jpeg",
+        "text": "to the left of the kitchen island",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 249
+    },
+    {
+        "image": "cropped_scene_183.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 250
+    },
+    {
+        "image": "cropped_scene_183.jpeg",
+        "text": "situated on the left side of the main walking path, near the kitchen area",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 251
+    },
+    {
+        "image": "cropped_scene_183.jpeg",
+        "text": "near the chair centered in the room",
+        "bbox": [
+            112,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 252
+    },
+    {
+        "image": "cropped_scene_183.jpeg",
+        "text": "to the right of the kitchen island",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 253
+    },
+    {
+        "image": "cropped_scene_183.jpeg",
+        "text": "in front of the bar chairs",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 254
+    },
+    {
+        "image": "cropped_scene_184.jpeg",
+        "text": "to the left of the small table with chairs",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 255
+    },
+    {
+        "image": "cropped_scene_184.jpeg",
+        "text": "to the left of the kitchen island",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 256
+    },
+    {
+        "image": "cropped_scene_184.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 257
+    },
+    {
+        "image": "cropped_scene_184.jpeg",
+        "text": "situated on the left side of the main walking path, near the kitchen area",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 258
+    },
+    {
+        "image": "cropped_scene_184.jpeg",
+        "text": "near the chair centered in the room",
+        "bbox": [
+            112,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 259
+    },
+    {
+        "image": "cropped_scene_184.jpeg",
+        "text": "to the right of the kitchen island",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 260
+    },
+    {
+        "image": "cropped_scene_184.jpeg",
+        "text": "in front of the bar chairs",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 261
+    },
+    {
+        "image": "cropped_scene_185.jpeg",
+        "text": "to the left of the small table with chairs",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 262
+    },
+    {
+        "image": "cropped_scene_185.jpeg",
+        "text": "to the left of the kitchen island",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 263
+    },
+    {
+        "image": "cropped_scene_185.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 264
+    },
+    {
+        "image": "cropped_scene_185.jpeg",
+        "text": "situated on the left side of the main walking path, near the kitchen area",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 265
+    },
+    {
+        "image": "cropped_scene_185.jpeg",
+        "text": "near the chair centered in the room",
+        "bbox": [
+            112,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 266
+    },
+    {
+        "image": "cropped_scene_185.jpeg",
+        "text": "to the right of the kitchen island",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 267
+    },
+    {
+        "image": "cropped_scene_185.jpeg",
+        "text": "in front of the bar chairs",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 268
+    },
+    {
+        "image": "cropped_scene_186.jpeg",
+        "text": "to the left of the small table with chairs",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 269
+    },
+    {
+        "image": "cropped_scene_186.jpeg",
+        "text": "to the left of the kitchen island",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 270
+    },
+    {
+        "image": "cropped_scene_186.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 271
+    },
+    {
+        "image": "cropped_scene_186.jpeg",
+        "text": "situated on the left side of the main walking path, near the kitchen area",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 272
+    },
+    {
+        "image": "cropped_scene_186.jpeg",
+        "text": "near the chair centered in the room",
+        "bbox": [
+            112,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 273
+    },
+    {
+        "image": "cropped_scene_186.jpeg",
+        "text": "to the right of the kitchen island",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 274
+    },
+    {
+        "image": "cropped_scene_186.jpeg",
+        "text": "in front of the bar chairs",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 275
+    },
+    {
+        "image": "cropped_scene_187.jpeg",
+        "text": "to the left of the small table with chairs",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 276
+    },
+    {
+        "image": "cropped_scene_187.jpeg",
+        "text": "to the left of the kitchen island",
+        "bbox": [
+            28,
+            168,
+            14,
+            14
+        ],
+        "ref_id": 277
+    },
+    {
+        "image": "cropped_scene_187.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 278
+    },
+    {
+        "image": "cropped_scene_187.jpeg",
+        "text": "situated on the left side of the main walking path, near the kitchen area",
+        "bbox": [
+            42,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 279
+    },
+    {
+        "image": "cropped_scene_187.jpeg",
+        "text": "near the chair centered in the room",
+        "bbox": [
+            112,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 280
+    },
+    {
+        "image": "cropped_scene_187.jpeg",
+        "text": "to the right of the kitchen island",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 281
+    },
+    {
+        "image": "cropped_scene_187.jpeg",
+        "text": "in front of the bar chairs",
+        "bbox": [
+            70,
+            154,
+            14,
+            14
+        ],
+        "ref_id": 282
+    },
+    {
+        "image": "cropped_scene_188.jpeg",
+        "text": "in front of the kitchen island with chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 283
+    },
+    {
+        "image": "cropped_scene_188.jpeg",
+        "text": "above the kitchen island with bar chairs",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 284
+    },
+    {
+        "image": "cropped_scene_188.jpeg",
+        "text": "near the corner where the island meets the wall",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 285
+    },
+    {
+        "image": "cropped_scene_188.jpeg",
+        "text": " to the left of the two bar chairs",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 286
+    },
+    {
+        "image": "cropped_scene_188.jpeg",
+        "text": "on the floor near the end of the countertop",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 287
+    },
+    {
+        "image": "cropped_scene_188.jpeg",
+        "text": "near the upper left corner of the kitchen island",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 288
+    },
+    {
+        "image": "cropped_scene_188.jpeg",
+        "text": "near the lower end of the countertop with chairs",
+        "bbox": [
+            14,
+            182,
+            14,
+            14
+        ],
+        "ref_id": 289
+    },
+    {
+        "image": "cropped_scene_188.jpeg",
+        "text": " adjacent to the corner of the l-shaped counter",
+        "bbox": [
+            14,
+            182,
+            14,
+            14
+        ],
+        "ref_id": 290
+    },
+    {
+        "image": "cropped_scene_189.jpeg",
+        "text": "in front of the kitchen island with chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 291
+    },
+    {
+        "image": "cropped_scene_189.jpeg",
+        "text": "above the kitchen island with bar chairs",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 292
+    },
+    {
+        "image": "cropped_scene_189.jpeg",
+        "text": "near the corner where the island meets the wall",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 293
+    },
+    {
+        "image": "cropped_scene_189.jpeg",
+        "text": " to the left of the two bar chairs",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 294
+    },
+    {
+        "image": "cropped_scene_189.jpeg",
+        "text": "on the floor near the end of the countertop",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 295
+    },
+    {
+        "image": "cropped_scene_189.jpeg",
+        "text": "near the upper left corner of the kitchen island",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 296
+    },
+    {
+        "image": "cropped_scene_189.jpeg",
+        "text": "near the lower end of the countertop with chairs",
+        "bbox": [
+            14,
+            182,
+            14,
+            14
+        ],
+        "ref_id": 297
+    },
+    {
+        "image": "cropped_scene_189.jpeg",
+        "text": " adjacent to the corner of the l-shaped counter",
+        "bbox": [
+            14,
+            182,
+            14,
+            14
+        ],
+        "ref_id": 298
+    },
+    {
+        "image": "cropped_scene_190.jpeg",
+        "text": "in front of the kitchen island with chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 299
+    },
+    {
+        "image": "cropped_scene_190.jpeg",
+        "text": "above the kitchen island with bar chairs",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 300
+    },
+    {
+        "image": "cropped_scene_190.jpeg",
+        "text": "near the corner where the island meets the wall",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 301
+    },
+    {
+        "image": "cropped_scene_190.jpeg",
+        "text": " to the left of the two bar chairs",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 302
+    },
+    {
+        "image": "cropped_scene_190.jpeg",
+        "text": "on the floor near the end of the countertop",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 303
+    },
+    {
+        "image": "cropped_scene_190.jpeg",
+        "text": "near the upper left corner of the kitchen island",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 304
+    },
+    {
+        "image": "cropped_scene_190.jpeg",
+        "text": "near the lower end of the countertop with chairs",
+        "bbox": [
+            14,
+            182,
+            14,
+            14
+        ],
+        "ref_id": 305
+    },
+    {
+        "image": "cropped_scene_190.jpeg",
+        "text": " adjacent to the corner of the l-shaped counter",
+        "bbox": [
+            14,
+            182,
+            14,
+            14
+        ],
+        "ref_id": 306
+    },
+    {
+        "image": "cropped_scene_191.jpeg",
+        "text": "in front of the kitchen island with chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 307
+    },
+    {
+        "image": "cropped_scene_191.jpeg",
+        "text": "above the kitchen island with bar chairs",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 308
+    },
+    {
+        "image": "cropped_scene_191.jpeg",
+        "text": "near the corner where the island meets the wall",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 309
+    },
+    {
+        "image": "cropped_scene_191.jpeg",
+        "text": " to the left of the two bar chairs",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 310
+    },
+    {
+        "image": "cropped_scene_191.jpeg",
+        "text": "on the floor near the end of the countertop",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 311
+    },
+    {
+        "image": "cropped_scene_191.jpeg",
+        "text": "near the upper left corner of the kitchen island",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 312
+    },
+    {
+        "image": "cropped_scene_191.jpeg",
+        "text": "near the lower end of the countertop with chairs",
+        "bbox": [
+            14,
+            182,
+            14,
+            14
+        ],
+        "ref_id": 313
+    },
+    {
+        "image": "cropped_scene_191.jpeg",
+        "text": " adjacent to the corner of the l-shaped counter",
+        "bbox": [
+            14,
+            182,
+            14,
+            14
+        ],
+        "ref_id": 314
+    },
+    {
+        "image": "cropped_scene_192.jpeg",
+        "text": "in front of the kitchen island with chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 315
+    },
+    {
+        "image": "cropped_scene_192.jpeg",
+        "text": "above the kitchen island with bar chairs",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 316
+    },
+    {
+        "image": "cropped_scene_192.jpeg",
+        "text": "near the corner where the island meets the wall",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 317
+    },
+    {
+        "image": "cropped_scene_192.jpeg",
+        "text": " to the left of the two bar chairs",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 318
+    },
+    {
+        "image": "cropped_scene_192.jpeg",
+        "text": "on the floor near the end of the countertop",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 319
+    },
+    {
+        "image": "cropped_scene_192.jpeg",
+        "text": "near the upper left corner of the kitchen island",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 320
+    },
+    {
+        "image": "cropped_scene_192.jpeg",
+        "text": "near the lower end of the countertop with chairs",
+        "bbox": [
+            14,
+            182,
+            14,
+            14
+        ],
+        "ref_id": 321
+    },
+    {
+        "image": "cropped_scene_192.jpeg",
+        "text": " adjacent to the corner of the l-shaped counter",
+        "bbox": [
+            14,
+            182,
+            14,
+            14
+        ],
+        "ref_id": 322
+    },
+    {
+        "image": "cropped_scene_193.jpeg",
+        "text": "in front of the kitchen island with chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 323
+    },
+    {
+        "image": "cropped_scene_193.jpeg",
+        "text": "above the kitchen island with bar chairs",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 324
+    },
+    {
+        "image": "cropped_scene_193.jpeg",
+        "text": "near the corner where the island meets the wall",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 325
+    },
+    {
+        "image": "cropped_scene_193.jpeg",
+        "text": " to the left of the two bar chairs",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 326
+    },
+    {
+        "image": "cropped_scene_193.jpeg",
+        "text": "on the floor near the end of the countertop",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 327
+    },
+    {
+        "image": "cropped_scene_193.jpeg",
+        "text": "near the upper left corner of the kitchen island",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 328
+    },
+    {
+        "image": "cropped_scene_193.jpeg",
+        "text": "near the lower end of the countertop with chairs",
+        "bbox": [
+            14,
+            182,
+            14,
+            14
+        ],
+        "ref_id": 329
+    },
+    {
+        "image": "cropped_scene_193.jpeg",
+        "text": " adjacent to the corner of the l-shaped counter",
+        "bbox": [
+            14,
+            182,
+            14,
+            14
+        ],
+        "ref_id": 330
+    },
+    {
+        "image": "cropped_scene_194.jpeg",
+        "text": "in front of the kitchen island with chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 331
+    },
+    {
+        "image": "cropped_scene_194.jpeg",
+        "text": "above the kitchen island with bar chairs",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 332
+    },
+    {
+        "image": "cropped_scene_194.jpeg",
+        "text": "near the corner where the island meets the wall",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 333
+    },
+    {
+        "image": "cropped_scene_194.jpeg",
+        "text": " to the left of the two bar chairs",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 334
+    },
+    {
+        "image": "cropped_scene_194.jpeg",
+        "text": "on the floor near the end of the countertop",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 335
+    },
+    {
+        "image": "cropped_scene_194.jpeg",
+        "text": "near the upper left corner of the kitchen island",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 336
+    },
+    {
+        "image": "cropped_scene_194.jpeg",
+        "text": "near the lower end of the countertop with chairs",
+        "bbox": [
+            14,
+            182,
+            14,
+            14
+        ],
+        "ref_id": 337
+    },
+    {
+        "image": "cropped_scene_194.jpeg",
+        "text": " adjacent to the corner of the l-shaped counter",
+        "bbox": [
+            14,
+            182,
+            14,
+            14
+        ],
+        "ref_id": 338
+    },
+    {
+        "image": "cropped_scene_195.jpeg",
+        "text": "in front of the kitchen island with chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 339
+    },
+    {
+        "image": "cropped_scene_195.jpeg",
+        "text": "above the kitchen island with bar chairs",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 340
+    },
+    {
+        "image": "cropped_scene_195.jpeg",
+        "text": "near the corner where the island meets the wall",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 341
+    },
+    {
+        "image": "cropped_scene_195.jpeg",
+        "text": " to the left of the two bar chairs",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 342
+    },
+    {
+        "image": "cropped_scene_195.jpeg",
+        "text": "on the floor near the end of the countertop",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 343
+    },
+    {
+        "image": "cropped_scene_195.jpeg",
+        "text": "near the upper left corner of the kitchen island",
+        "bbox": [
+            14,
+            126,
+            14,
+            14
+        ],
+        "ref_id": 344
+    },
+    {
+        "image": "cropped_scene_195.jpeg",
+        "text": "near the lower end of the countertop with chairs",
+        "bbox": [
+            14,
+            182,
+            14,
+            14
+        ],
+        "ref_id": 345
+    },
+    {
+        "image": "cropped_scene_195.jpeg",
+        "text": " adjacent to the corner of the l-shaped counter",
+        "bbox": [
+            14,
+            182,
+            14,
+            14
+        ],
+        "ref_id": 346
+    },
+    {
+        "image": "cropped_scene_196.jpeg",
+        "text": "in teh center of the open floor space",
+        "bbox": [
+            84,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 347
+    },
+    {
+        "image": "cropped_scene_196.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 348
+    },
+    {
+        "image": "cropped_scene_196.jpeg",
+        "text": "near the chair at the end of the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 349
+    },
+    {
+        "image": "cropped_scene_196.jpeg",
+        "text": "on the floor directly in front of the island with two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 350
+    },
+    {
+        "image": "cropped_scene_196.jpeg",
+        "text": "between the island countertop and the left wall",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 351
+    },
+    {
+        "image": "cropped_scene_196.jpeg",
+        "text": "near the two chairs at the countertop",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 352
+    },
+    {
+        "image": "cropped_scene_197.jpeg",
+        "text": "in teh center of the open floor space",
+        "bbox": [
+            84,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 353
+    },
+    {
+        "image": "cropped_scene_197.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 354
+    },
+    {
+        "image": "cropped_scene_197.jpeg",
+        "text": "near the chair at the end of the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 355
+    },
+    {
+        "image": "cropped_scene_197.jpeg",
+        "text": "on the floor directly in front of the island with two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 356
+    },
+    {
+        "image": "cropped_scene_197.jpeg",
+        "text": "between the island countertop and the left wall",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 357
+    },
+    {
+        "image": "cropped_scene_197.jpeg",
+        "text": "near the two chairs at the countertop",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 358
+    },
+    {
+        "image": "cropped_scene_198.jpeg",
+        "text": "in teh center of the open floor space",
+        "bbox": [
+            84,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 359
+    },
+    {
+        "image": "cropped_scene_198.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 360
+    },
+    {
+        "image": "cropped_scene_198.jpeg",
+        "text": "near the chair at the end of the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 361
+    },
+    {
+        "image": "cropped_scene_198.jpeg",
+        "text": "on the floor directly in front of the island with two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 362
+    },
+    {
+        "image": "cropped_scene_198.jpeg",
+        "text": "between the island countertop and the left wall",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 363
+    },
+    {
+        "image": "cropped_scene_198.jpeg",
+        "text": "near the two chairs at the countertop",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 364
+    },
+    {
+        "image": "cropped_scene_199.jpeg",
+        "text": "in teh center of the open floor space",
+        "bbox": [
+            84,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 365
+    },
+    {
+        "image": "cropped_scene_199.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 366
+    },
+    {
+        "image": "cropped_scene_199.jpeg",
+        "text": "near the chair at the end of the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 367
+    },
+    {
+        "image": "cropped_scene_199.jpeg",
+        "text": "on the floor directly in front of the island with two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 368
+    },
+    {
+        "image": "cropped_scene_199.jpeg",
+        "text": "between the island countertop and the left wall",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 369
+    },
+    {
+        "image": "cropped_scene_199.jpeg",
+        "text": "near the two chairs at the countertop",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 370
+    },
+    {
+        "image": "cropped_scene_200.jpeg",
+        "text": "in teh center of the open floor space",
+        "bbox": [
+            84,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 371
+    },
+    {
+        "image": "cropped_scene_200.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 372
+    },
+    {
+        "image": "cropped_scene_200.jpeg",
+        "text": "near the chair at the end of the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 373
+    },
+    {
+        "image": "cropped_scene_200.jpeg",
+        "text": "on the floor directly in front of the island with two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 374
+    },
+    {
+        "image": "cropped_scene_200.jpeg",
+        "text": "between the island countertop and the left wall",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 375
+    },
+    {
+        "image": "cropped_scene_200.jpeg",
+        "text": "near the two chairs at the countertop",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 376
+    },
+    {
+        "image": "cropped_scene_201.jpeg",
+        "text": "in teh center of the open floor space",
+        "bbox": [
+            84,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 377
+    },
+    {
+        "image": "cropped_scene_201.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 378
+    },
+    {
+        "image": "cropped_scene_201.jpeg",
+        "text": "near the chair at the end of the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 379
+    },
+    {
+        "image": "cropped_scene_201.jpeg",
+        "text": "on the floor directly in front of the island with two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 380
+    },
+    {
+        "image": "cropped_scene_201.jpeg",
+        "text": "between the island countertop and the left wall",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 381
+    },
+    {
+        "image": "cropped_scene_201.jpeg",
+        "text": "near the two chairs at the countertop",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 382
+    },
+    {
+        "image": "cropped_scene_202.jpeg",
+        "text": "in teh center of the open floor space",
+        "bbox": [
+            84,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 383
+    },
+    {
+        "image": "cropped_scene_202.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 384
+    },
+    {
+        "image": "cropped_scene_202.jpeg",
+        "text": "near the chair at the end of the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 385
+    },
+    {
+        "image": "cropped_scene_202.jpeg",
+        "text": "on the floor directly in front of the island with two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 386
+    },
+    {
+        "image": "cropped_scene_202.jpeg",
+        "text": "between the island countertop and the left wall",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 387
+    },
+    {
+        "image": "cropped_scene_202.jpeg",
+        "text": "near the two chairs at the countertop",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 388
+    },
+    {
+        "image": "cropped_scene_203.jpeg",
+        "text": "in teh center of the open floor space",
+        "bbox": [
+            84,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 389
+    },
+    {
+        "image": "cropped_scene_203.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 390
+    },
+    {
+        "image": "cropped_scene_203.jpeg",
+        "text": "near the chair at the end of the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 391
+    },
+    {
+        "image": "cropped_scene_203.jpeg",
+        "text": "on the floor directly in front of the island with two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 392
+    },
+    {
+        "image": "cropped_scene_203.jpeg",
+        "text": "between the island countertop and the left wall",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 393
+    },
+    {
+        "image": "cropped_scene_203.jpeg",
+        "text": "near the two chairs at the countertop",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 394
+    },
+    {
+        "image": "cropped_scene_204.jpeg",
+        "text": "near the chair in front of the opened cabinet",
+        "bbox": [
+            56,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 395
+    },
+    {
+        "image": "cropped_scene_204.jpeg",
+        "text": " near the end of the kitchen counter",
+        "bbox": [
+            56,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 396
+    },
+    {
+        "image": "cropped_scene_204.jpeg",
+        "text": "situated in front of the bar-style seating area near two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 397
+    },
+    {
+        "image": "cropped_scene_204.jpeg",
+        "text": "in front of the kitchen island with two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 398
+    },
+    {
+        "image": "cropped_scene_204.jpeg",
+        "text": "near the upper end of the kicthen island with two chairs",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 399
+    },
+    {
+        "image": "cropped_scene_204.jpeg",
+        "text": "on the floor next to the left edge of the kitchen island",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 400
+    },
+    {
+        "image": "cropped_scene_204.jpeg",
+        "text": " near the chairs by the dining table",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 401
+    },
+    {
+        "image": "cropped_scene_204.jpeg",
+        "text": "in between two chairs at the dining table",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 402
+    },
+    {
+        "image": "cropped_scene_205.jpeg",
+        "text": "near the chair in front of the opened cabinet",
+        "bbox": [
+            56,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 403
+    },
+    {
+        "image": "cropped_scene_205.jpeg",
+        "text": " near the end of the kitchen counter",
+        "bbox": [
+            56,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 404
+    },
+    {
+        "image": "cropped_scene_205.jpeg",
+        "text": "situated in front of the bar-style seating area near two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 405
+    },
+    {
+        "image": "cropped_scene_205.jpeg",
+        "text": "in front of the kitchen island with two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 406
+    },
+    {
+        "image": "cropped_scene_205.jpeg",
+        "text": "near the upper end of the kicthen island with two chairs",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 407
+    },
+    {
+        "image": "cropped_scene_205.jpeg",
+        "text": "on the floor next to the left edge of the kitchen island",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 408
+    },
+    {
+        "image": "cropped_scene_205.jpeg",
+        "text": " near the chairs by the dining table",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 409
+    },
+    {
+        "image": "cropped_scene_205.jpeg",
+        "text": "in between two chairs at the dining table",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 410
+    },
+    {
+        "image": "cropped_scene_206.jpeg",
+        "text": "near the chair in front of the opened cabinet",
+        "bbox": [
+            56,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 411
+    },
+    {
+        "image": "cropped_scene_206.jpeg",
+        "text": " near the end of the kitchen counter",
+        "bbox": [
+            56,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 412
+    },
+    {
+        "image": "cropped_scene_206.jpeg",
+        "text": "situated in front of the bar-style seating area near two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 413
+    },
+    {
+        "image": "cropped_scene_206.jpeg",
+        "text": "in front of the kitchen island with two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 414
+    },
+    {
+        "image": "cropped_scene_206.jpeg",
+        "text": "near the upper end of the kicthen island with two chairs",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 415
+    },
+    {
+        "image": "cropped_scene_206.jpeg",
+        "text": "on the floor next to the left edge of the kitchen island",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 416
+    },
+    {
+        "image": "cropped_scene_206.jpeg",
+        "text": " near the chairs by the dining table",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 417
+    },
+    {
+        "image": "cropped_scene_206.jpeg",
+        "text": "in between two chairs at the dining table",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 418
+    },
+    {
+        "image": "cropped_scene_207.jpeg",
+        "text": "near the chair in front of the opened cabinet",
+        "bbox": [
+            56,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 419
+    },
+    {
+        "image": "cropped_scene_207.jpeg",
+        "text": " near the end of the kitchen counter",
+        "bbox": [
+            56,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 420
+    },
+    {
+        "image": "cropped_scene_207.jpeg",
+        "text": "situated in front of the bar-style seating area near two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 421
+    },
+    {
+        "image": "cropped_scene_207.jpeg",
+        "text": "in front of the kitchen island with two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 422
+    },
+    {
+        "image": "cropped_scene_207.jpeg",
+        "text": "near the upper end of the kicthen island with two chairs",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 423
+    },
+    {
+        "image": "cropped_scene_207.jpeg",
+        "text": "on the floor next to the left edge of the kitchen island",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 424
+    },
+    {
+        "image": "cropped_scene_207.jpeg",
+        "text": " near the chairs by the dining table",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 425
+    },
+    {
+        "image": "cropped_scene_207.jpeg",
+        "text": "in between two chairs at the dining table",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 426
+    },
+    {
+        "image": "cropped_scene_208.jpeg",
+        "text": "near the chair in front of the opened cabinet",
+        "bbox": [
+            56,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 427
+    },
+    {
+        "image": "cropped_scene_208.jpeg",
+        "text": " near the end of the kitchen counter",
+        "bbox": [
+            56,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 428
+    },
+    {
+        "image": "cropped_scene_208.jpeg",
+        "text": "situated in front of the bar-style seating area near two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 429
+    },
+    {
+        "image": "cropped_scene_208.jpeg",
+        "text": "in front of the kitchen island with two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 430
+    },
+    {
+        "image": "cropped_scene_208.jpeg",
+        "text": "near the upper end of the kicthen island with two chairs",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 431
+    },
+    {
+        "image": "cropped_scene_208.jpeg",
+        "text": "on the floor next to the left edge of the kitchen island",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 432
+    },
+    {
+        "image": "cropped_scene_208.jpeg",
+        "text": " near the chairs by the dining table",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 433
+    },
+    {
+        "image": "cropped_scene_208.jpeg",
+        "text": "in between two chairs at the dining table",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 434
+    },
+    {
+        "image": "cropped_scene_209.jpeg",
+        "text": "near the chair in front of the opened cabinet",
+        "bbox": [
+            56,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 435
+    },
+    {
+        "image": "cropped_scene_209.jpeg",
+        "text": " near the end of the kitchen counter",
+        "bbox": [
+            56,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 436
+    },
+    {
+        "image": "cropped_scene_209.jpeg",
+        "text": "situated in front of the bar-style seating area near two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 437
+    },
+    {
+        "image": "cropped_scene_209.jpeg",
+        "text": "in front of the kitchen island with two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 438
+    },
+    {
+        "image": "cropped_scene_209.jpeg",
+        "text": "near the upper end of the kicthen island with two chairs",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 439
+    },
+    {
+        "image": "cropped_scene_209.jpeg",
+        "text": "on the floor next to the left edge of the kitchen island",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 440
+    },
+    {
+        "image": "cropped_scene_209.jpeg",
+        "text": " near the chairs by the dining table",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 441
+    },
+    {
+        "image": "cropped_scene_209.jpeg",
+        "text": "in between two chairs at the dining table",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 442
+    },
+    {
+        "image": "cropped_scene_210.jpeg",
+        "text": "near the chair in front of the opened cabinet",
+        "bbox": [
+            56,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 443
+    },
+    {
+        "image": "cropped_scene_210.jpeg",
+        "text": " near the end of the kitchen counter",
+        "bbox": [
+            56,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 444
+    },
+    {
+        "image": "cropped_scene_210.jpeg",
+        "text": "situated in front of the bar-style seating area near two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 445
+    },
+    {
+        "image": "cropped_scene_210.jpeg",
+        "text": "in front of the kitchen island with two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 446
+    },
+    {
+        "image": "cropped_scene_210.jpeg",
+        "text": "near the upper end of the kicthen island with two chairs",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 447
+    },
+    {
+        "image": "cropped_scene_210.jpeg",
+        "text": "on the floor next to the left edge of the kitchen island",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 448
+    },
+    {
+        "image": "cropped_scene_210.jpeg",
+        "text": " near the chairs by the dining table",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 449
+    },
+    {
+        "image": "cropped_scene_210.jpeg",
+        "text": "in between two chairs at the dining table",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 450
+    },
+    {
+        "image": "cropped_scene_211.jpeg",
+        "text": "near the chair in front of the opened cabinet",
+        "bbox": [
+            56,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 451
+    },
+    {
+        "image": "cropped_scene_211.jpeg",
+        "text": " near the end of the kitchen counter",
+        "bbox": [
+            56,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 452
+    },
+    {
+        "image": "cropped_scene_211.jpeg",
+        "text": "situated in front of the bar-style seating area near two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 453
+    },
+    {
+        "image": "cropped_scene_211.jpeg",
+        "text": "in front of the kitchen island with two chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 454
+    },
+    {
+        "image": "cropped_scene_211.jpeg",
+        "text": "near the upper end of the kicthen island with two chairs",
+        "bbox": [
+            28,
+            98,
+            14,
+            14
+        ],
+        "ref_id": 455
+    },
+    {
+        "image": "cropped_scene_211.jpeg",
+        "text": "on the floor next to the left edge of the kitchen island",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 456
+    },
+    {
+        "image": "cropped_scene_211.jpeg",
+        "text": " near the chairs by the dining table",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 457
+    },
+    {
+        "image": "cropped_scene_211.jpeg",
+        "text": "in between two chairs at the dining table",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 458
+    },
+    {
+        "image": "cropped_scene_212.jpeg",
+        "text": "in front of the chair near the opened cabinet",
+        "bbox": [
+            42,
+            84,
+            14,
+            14
+        ],
+        "ref_id": 459
+    },
+    {
+        "image": "cropped_scene_212.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 460
+    },
+    {
+        "image": "cropped_scene_212.jpeg",
+        "text": "near the left wall, adjacent to the dining area",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 461
+    },
+    {
+        "image": "cropped_scene_212.jpeg",
+        "text": "in between two chairs at the kitchen island",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 462
+    },
+    {
+        "image": "cropped_scene_212.jpeg",
+        "text": "to the left of the countertop",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 463
+    },
+    {
+        "image": "cropped_scene_212.jpeg",
+        "text": "between the kitchen island and the stove",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 464
+    },
+    {
+        "image": "cropped_scene_212.jpeg",
+        "text": "to the right of the kitchen chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 465
+    },
+    {
+        "image": "cropped_scene_212.jpeg",
+        "text": "to the right of the kitchen island",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 466
+    },
+    {
+        "image": "cropped_scene_213.jpeg",
+        "text": "in front of the chair near the opened cabinet",
+        "bbox": [
+            42,
+            84,
+            14,
+            14
+        ],
+        "ref_id": 467
+    },
+    {
+        "image": "cropped_scene_213.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 468
+    },
+    {
+        "image": "cropped_scene_213.jpeg",
+        "text": "near the left wall, adjacent to the dining area",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 469
+    },
+    {
+        "image": "cropped_scene_213.jpeg",
+        "text": "in between two chairs at the kitchen island",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 470
+    },
+    {
+        "image": "cropped_scene_213.jpeg",
+        "text": "to the left of the countertop",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 471
+    },
+    {
+        "image": "cropped_scene_213.jpeg",
+        "text": "between the kitchen island and the stove",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 472
+    },
+    {
+        "image": "cropped_scene_213.jpeg",
+        "text": "to the right of the kitchen chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 473
+    },
+    {
+        "image": "cropped_scene_213.jpeg",
+        "text": "to the right of the kitchen island",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 474
+    },
+    {
+        "image": "cropped_scene_214.jpeg",
+        "text": "in front of the chair near the opened cabinet",
+        "bbox": [
+            42,
+            84,
+            14,
+            14
+        ],
+        "ref_id": 475
+    },
+    {
+        "image": "cropped_scene_214.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 476
+    },
+    {
+        "image": "cropped_scene_214.jpeg",
+        "text": "near the left wall, adjacent to the dining area",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 477
+    },
+    {
+        "image": "cropped_scene_214.jpeg",
+        "text": "in between two chairs at the kitchen island",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 478
+    },
+    {
+        "image": "cropped_scene_214.jpeg",
+        "text": "to the left of the countertop",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 479
+    },
+    {
+        "image": "cropped_scene_214.jpeg",
+        "text": "between the kitchen island and the stove",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 480
+    },
+    {
+        "image": "cropped_scene_214.jpeg",
+        "text": "to the right of the kitchen chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 481
+    },
+    {
+        "image": "cropped_scene_214.jpeg",
+        "text": "to the right of the kitchen island",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 482
+    },
+    {
+        "image": "cropped_scene_215.jpeg",
+        "text": "in front of the chair near the opened cabinet",
+        "bbox": [
+            42,
+            84,
+            14,
+            14
+        ],
+        "ref_id": 483
+    },
+    {
+        "image": "cropped_scene_215.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 484
+    },
+    {
+        "image": "cropped_scene_215.jpeg",
+        "text": "near the left wall, adjacent to the dining area",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 485
+    },
+    {
+        "image": "cropped_scene_215.jpeg",
+        "text": "in between two chairs at the kitchen island",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 486
+    },
+    {
+        "image": "cropped_scene_215.jpeg",
+        "text": "to the left of the countertop",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 487
+    },
+    {
+        "image": "cropped_scene_215.jpeg",
+        "text": "between the kitchen island and the stove",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 488
+    },
+    {
+        "image": "cropped_scene_215.jpeg",
+        "text": "to the right of the kitchen chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 489
+    },
+    {
+        "image": "cropped_scene_215.jpeg",
+        "text": "to the right of the kitchen island",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 490
+    },
+    {
+        "image": "cropped_scene_216.jpeg",
+        "text": "in front of the chair near the opened cabinet",
+        "bbox": [
+            42,
+            84,
+            14,
+            14
+        ],
+        "ref_id": 491
+    },
+    {
+        "image": "cropped_scene_216.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 492
+    },
+    {
+        "image": "cropped_scene_216.jpeg",
+        "text": "near the left wall, adjacent to the dining area",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 493
+    },
+    {
+        "image": "cropped_scene_216.jpeg",
+        "text": "in between two chairs at the kitchen island",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 494
+    },
+    {
+        "image": "cropped_scene_216.jpeg",
+        "text": "to the left of the countertop",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 495
+    },
+    {
+        "image": "cropped_scene_216.jpeg",
+        "text": "between the kitchen island and the stove",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 496
+    },
+    {
+        "image": "cropped_scene_216.jpeg",
+        "text": "to the right of the kitchen chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 497
+    },
+    {
+        "image": "cropped_scene_216.jpeg",
+        "text": "to the right of the kitchen island",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 498
+    },
+    {
+        "image": "cropped_scene_217.jpeg",
+        "text": "in front of the chair near the opened cabinet",
+        "bbox": [
+            42,
+            84,
+            14,
+            14
+        ],
+        "ref_id": 499
+    },
+    {
+        "image": "cropped_scene_217.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 500
+    },
+    {
+        "image": "cropped_scene_217.jpeg",
+        "text": "near the left wall, adjacent to the dining area",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 501
+    },
+    {
+        "image": "cropped_scene_217.jpeg",
+        "text": "in between two chairs at the kitchen island",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 502
+    },
+    {
+        "image": "cropped_scene_217.jpeg",
+        "text": "to the left of the countertop",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 503
+    },
+    {
+        "image": "cropped_scene_217.jpeg",
+        "text": "between the kitchen island and the stove",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 504
+    },
+    {
+        "image": "cropped_scene_217.jpeg",
+        "text": "to the right of the kitchen chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 505
+    },
+    {
+        "image": "cropped_scene_217.jpeg",
+        "text": "to the right of the kitchen island",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 506
+    },
+    {
+        "image": "cropped_scene_218.jpeg",
+        "text": "in front of the chair near the opened cabinet",
+        "bbox": [
+            42,
+            84,
+            14,
+            14
+        ],
+        "ref_id": 507
+    },
+    {
+        "image": "cropped_scene_218.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 508
+    },
+    {
+        "image": "cropped_scene_218.jpeg",
+        "text": "near the left wall, adjacent to the dining area",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 509
+    },
+    {
+        "image": "cropped_scene_218.jpeg",
+        "text": "in between two chairs at the kitchen island",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 510
+    },
+    {
+        "image": "cropped_scene_218.jpeg",
+        "text": "to the left of the countertop",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 511
+    },
+    {
+        "image": "cropped_scene_218.jpeg",
+        "text": "between the kitchen island and the stove",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 512
+    },
+    {
+        "image": "cropped_scene_218.jpeg",
+        "text": "to the right of the kitchen chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 513
+    },
+    {
+        "image": "cropped_scene_218.jpeg",
+        "text": "to the right of the kitchen island",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 514
+    },
+    {
+        "image": "cropped_scene_219.jpeg",
+        "text": "in front of the chair near the opened cabinet",
+        "bbox": [
+            42,
+            84,
+            14,
+            14
+        ],
+        "ref_id": 515
+    },
+    {
+        "image": "cropped_scene_219.jpeg",
+        "text": "above the kitchen island",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 516
+    },
+    {
+        "image": "cropped_scene_219.jpeg",
+        "text": "near the left wall, adjacent to the dining area",
+        "bbox": [
+            28,
+            112,
+            14,
+            14
+        ],
+        "ref_id": 517
+    },
+    {
+        "image": "cropped_scene_219.jpeg",
+        "text": "in between two chairs at the kitchen island",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 518
+    },
+    {
+        "image": "cropped_scene_219.jpeg",
+        "text": "to the left of the countertop",
+        "bbox": [
+            14,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 519
+    },
+    {
+        "image": "cropped_scene_219.jpeg",
+        "text": "between the kitchen island and the stove",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 520
+    },
+    {
+        "image": "cropped_scene_219.jpeg",
+        "text": "to the right of the kitchen chairs",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 521
+    },
+    {
+        "image": "cropped_scene_219.jpeg",
+        "text": "to the right of the kitchen island",
+        "bbox": [
+            56,
+            140,
+            14,
+            14
+        ],
+        "ref_id": 522
+    }
+]
